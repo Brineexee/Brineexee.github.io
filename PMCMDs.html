@@ -1,0 +1,3050 @@
+{
+	"Activate": {
+		"Name": "Activate",
+		"Description": "Enables or disables an object",
+		"Example": "Activate:Obj (Obj):Bool (Value)"
+	},
+	"Activatechild": {
+		"Name": "Activatechild",
+		"Description": "Enable/Disables child gameobject found by the name",
+		"Example": "Activatechild:Obj (Obj):String (Name):Bool (Value)"
+	},
+	"Activatechildall": {
+		"Name": "Activatechildall",
+		"Description": "Enable/Disables all child gameobjects",
+		"Example": "Activatechildall:Obj (Obj):String (Name):Bool (Value)"
+	},
+	"Addanimationsfrom": {
+		"Name": "Addanimationsfrom",
+		"Description": "Adds all animations from the second object to the first one",
+		"Example": "Addanimationsfrom:Obj (Obj1):Obj (Obj2)"
+	},
+	"Addcomponent": {
+		"Name": "Addcomponent",
+		"Description": "Adds a component to the GameObject",
+		"Example": "Addcomponent:Obj (Obj):String (Component)"
+	},
+	"Adddestinationspot": {
+		"Name": "Adddestinationspot",
+		"Description": "Adds a destination spot with position and rotation",
+		"Example": "Adddestinationspot:String (Name):Vector3 (Pos):Vector3 (Rot)"
+	},
+	"Addmoney": {
+		"Name": "Addmoney",
+		"Description": "Adds money to Ayano's current balance",
+		"Example": "Addmoney:Float (Value)"
+	},
+	"Addrigidbody": {
+		"Name": "Addrigidbody",
+		"Description": "Adds rigidbody to object",
+		"Example": "Addrigidbody:Obj (Obj)"
+	},
+	"Addtothing.Audiosource": {
+		"Name": "Addtothing.Audiosource",
+		"Description": "Adds AudioSource",
+		"Example": "Addtothing.Audiosource:Obj (Obj)"
+	},
+	"Alllabelscolor": {
+		"Name": "Alllabelscolor",
+		"Description": "Changes the colour of all labels",
+		"Example": "Alllabelscolor:Color (Color)"
+	},
+	"Alllabelseffectcolor": {
+		"Name": "Alllabelseffectcolor",
+		"Description": "Changes the color effect of all labels",
+		"Example": "Alllabelseffectcolor:Float (R):Float (G):Float (B)"
+	},
+	"Alllabelsgradientbottomcolor": {
+		"Name": "Alllabelsgradientbottomcolor",
+		"Description": "Changes the gradient bottom colour of all labels",
+		"Example": "Alllabelsgradientbottomcolor:Color (Color)"
+	},
+	"Alllabelsgradienttopcolor": {
+		"Name": "Alllabelsgradienttopcolor",
+		"Description": "Changes the gradient top colour of all labels",
+		"Example": "Alllabelsgradienttopcolor:Color (Color)"
+	},
+	"Allspritescolor": {
+		"Name": "Allspritescolor",
+		"Description": "Changes the colour of all sprites",
+		"Example": "Allspritescolor:Color (Color)"
+	},
+	"Allstudentsaddnew": {
+		"Name": "Allstudentsaddnew",
+		"Description": "Gives all students all animations based on the chosen gender",
+		"Example": "Allstudentsaddnew:String (Gender)"
+	},
+	"Allstudentsaddnewfrom": {
+		"Name": "Allstudentsaddnewfrom",
+		"Description": "Gives all students all animations coming from a student based on the chosen gender",
+		"Example": "Allstudentsaddnewfrom:String (Gender):Studentscript (Sourcestudent)"
+	},
+	"Anim.Crossfade": {
+		"Name": "Anim.Crossfade",
+		"Description": "Object crossfades to the written animation",
+		"Example": "Anim.Crossfade:Obj (Obj):String (Anim)"
+	},
+	"Anim.Crossfadeuntilend": {
+		"Name": "Anim.Crossfadeuntilend",
+		"Description": "Makes an object animation crossfade to the written animation until end",
+		"Example": "Anim.Crossfadeuntilend:Obj (Obj):String (Anim)"
+	},
+	"Anim.Layer": {
+		"Name": "Anim.Layer",
+		"Description": "Changes the layer of the written animation",
+		"Example": "Anim.Layer:Obj (Obj):String (Anim):Int (Value)"
+	},
+	"Anim.Loop": {
+		"Name": "Anim.Loop",
+		"Description": "Object's written animation loops",
+		"Example": "Anim.Loop:Obj (Obj):String (Anim):Bool (Value)"
+	},
+	"Anim.Play": {
+		"Name": "Anim.Play",
+		"Description": "Object plays the written animation",
+		"Example": "Anim.Play:Obj (Obj):String (Anim)"
+	},
+	"Anim.Playuntilend": {
+		"Name": "Anim.Playuntilend",
+		"Description": "Makes an object play the written animation",
+		"Example": "Anim.Playuntilend:Obj (Obj):String (Anim)"
+	},
+	"Anim.Rename": {
+		"Name": "Anim.Rename",
+		"Description": "Renames the written animation for the object",
+		"Example": "Anim.Rename:Obj (Obj):String (Anim):String (Newname)"
+	},
+	"Anim.Replace": {
+		"Name": "Anim.Replace",
+		"Description": "Replaces the written animation for the object",
+		"Example": "Anim.Replace:Obj (Obj):String (Oldanim):String (Newanim)"
+	},
+	"Anim.Setname": {
+		"Name": "Anim.Setname",
+		"Description": "Sets the written animation's name for the object",
+		"Example": "Anim.Setname:Obj (Obj):String (Anim):String (Value)"
+	},
+	"Anim.Speed": {
+		"Name": "Anim.Speed",
+		"Description": "Object's written animation speed changes",
+		"Example": "Anim.Speed:Obj (Obj):String (Anim):Float (Value)"
+	},
+	"Anim.Stop": {
+		"Name": "Anim.Stop",
+		"Description": "Object stops playing the animation",
+		"Example": "Anim.Stop:Obj (Obj)"
+	},
+	"Anim.Time": {
+		"Name": "Anim.Time",
+		"Description": "Changes the played time of the animation",
+		"Example": "Anim.Time:Obj (Obj):String (Anim):Float (Value)"
+	},
+	"Anim.Weight": {
+		"Name": "Anim.Weight",
+		"Description": "Object written animation's weight changes",
+		"Example": "Anim.Weight:Obj (Obj):String (Anim):Float (Value)"
+	},
+	"Anim.Wrap": {
+		"Name": "Anim.Wrap",
+		"Description": "Changes the Object's animation wrap property",
+		"Example": "Anim.Wrap:Obj (Obj):String (Anim):Int (Value)"
+	},
+	"Applystudentoutlinestochild": {
+		"Name": "Applystudentoutlinestochild",
+		"Description": "Gives outlines to student's children objects (Accessories for example)",
+		"Example": "Applystudentoutlinestochild:Studentscript (Student):Obj (Obj):Bool (Value):Color (Color)"
+	},
+	"Assetbundle.Createfromfile": {
+		"Name": "Assetbundle.Createfromfile",
+		"Description": "Opens a bundle file",
+		"Example": "Assetbundle.Createfromfile:String (Filename)"
+	},
+	"Assetbundle.Loadasync": {
+		"Name": "Assetbundle.Loadasync",
+		"Description": "Loads an asset from the opened bundle file",
+		"Example": "Assetbundle.Loadasync:String (Assetname)"
+	},
+	"Assetbundle.Unload": {
+		"Name": "Assetbundle.Unload",
+		"Description": "Closes the opened bundle file",
+		"Example": "Assetbundle.Unload"
+	},
+	"Atmosphere": {
+		"Name": "Atmosphere",
+		"Description": "Changes the game atmosphere",
+		"Example": "Atmosphere:Float (Value)",
+    "AttachmentURL": ""
+	},
+	"Attach": {
+		"Name": "Attach",
+		"Description": "Makes the first object children of the second object",
+		"Example": "Attach:Obj (Objchild):Obj (Objparent)"
+	},
+	"Attach2": {
+		"Name": "Attach2",
+		"Description": "Makes the first object children of the second object and chooses wether to keep or not the world position of it",
+		"Example": "Attach2:Obj (Objchild):Obj (Objparent):Bool (Worldpositionstays)"
+	},
+	"Attach3": {
+		"Name": "Attach3",
+		"Description": "Makes the first object children of the second object and chooses wether to keep or not the world position of it",
+		"Example": "Attach3:Obj (Objchild):Obj (Objparent):Bool (Worldpositionstays)"
+	},
+	"Attach4": {
+		"Name": "Attach4",
+		"Description": "Makes the first object children of the second object and chooses wether to keep or not the world position of it",
+		"Example": "Attach4:Obj (Objchild):Obj (Objparent):Bool (Worldpositionstays)"
+	},
+	"Attach5": {
+		"Name": "Attach5",
+		"Description": "Makes the first object children of the second object",
+		"Example": "Attach5:Obj (Objparent):Obj (Objchild)"
+	},
+	"Attachchild": {
+		"Name": "Attachchild",
+		"Description": "Makes the first object's child become the child of second object and chooses wether to keep or not the world position of it",
+		"Example": "Attachchild:Obj (Obj):String (Childobject):Obj (Obj2):Bool (Worldpositionstays)"
+	},
+	"Attachchild2": {
+		"Name": "Attachchild2",
+		"Description": "Makes the first object's child become the child of second object's child and chooses wether to keep or not the world position of it",
+		"Example": "Attachchild2:Obj (Obj):String (Childobject):Obj (Obj2):String (Obj2child):Bool (Worldpositionstays)"
+	},
+	"Attachchild3": {
+		"Name": "Attachchild3",
+		"Description": "Makes the first object's child become the child of second object's child and chooses wether to keep or not the world position of it",
+		"Example": "Attachchild3:Obj (Obj):Obj (Obj2):String (Obj2child):Bool (Worldpositionstays)"
+	},
+	"Attachskinnedmesh": {
+		"Name": "Attachskinnedmesh",
+		"Description": "Attach object to target's skinned mesh renderer",
+		"Example": "Attachskinnedmesh:Obj (Obj):Obj (Target)"
+	},
+	"Attachskinnedmeshtoyan": {
+		"Name": "Attachskinnedmeshtoyan",
+		"Description": "Attaches a skinned mesh renderer to Ayano",
+		"Example": "Attachskinnedmeshtoyan:Obj (Obj)"
+	},
+	"Attachskinnedmeshwithprefix": {
+		"Name": "Attachskinnedmeshwithprefix",
+		"Description": "Attach object to target's skinned mesh renderer (Prefix)",
+		"Example": "Attachskinnedmeshwithprefix:Obj (Obj):Obj (Target):String (Prefix)"
+	},
+	"Attimestartevent": {
+		"Name": "Attimestartevent",
+		"Description": "Starts a cutscene at specified event",
+		"Example": "Attimestartevent:Float (Time):String (Cutscene)"
+	},
+	"Audiosource.Clip.Towww": {
+		"Name": "Audiosource.Clip.Towww",
+		"Description": "Get AudioClip by URL",
+		"Example": "Audiosource.Clip.Towww"
+	},
+	"Audiosource.Loop": {
+		"Name": "Audiosource.Loop",
+		"Description": "Changes AudioSource's loop state (on/off)",
+		"Example": "Audiosource.Loop:Bool (Value)"
+	},
+	"Audiosource.Pitch": {
+		"Name": "Audiosource.Pitch",
+		"Description": "Changes AudioSource's pitch",
+		"Example": "Audiosource.Pitch:Float (Value)"
+	},
+	"Audiosource.Play": {
+		"Name": "Audiosource.Play",
+		"Description": "Play AudioSource",
+		"Example": "Audiosource.Play"
+	},
+	"Audiosource.Stop": {
+		"Name": "Audiosource.Stop",
+		"Description": "Stop AudioSource",
+		"Example": "Audiosource.Stop"
+	},
+	"Audiosource.Time": {
+		"Name": "Audiosource.Time",
+		"Description": "Changes AudioSource's played time",
+		"Example": "Audiosource.Time:Float (Value)"
+	},
+	"Audiosource.Volume": {
+		"Name": "Audiosource.Volume",
+		"Description": "Changes AudioSource's volume",
+		"Example": "Audiosource.Volume:Float (Value)"
+	},
+	"Ayanohairphysics.Add": {
+		"Name": "Ayanohairphysics.Add",
+		"Description": "Adds Ayano's hair physics to an object",
+		"Example": "Ayanohairphysics.Add:Obj (Obj)"
+	},
+	"Beatrival": {
+		"Name": "Beatrival",
+		"Description": "Automatically beat a rival",
+		"Example": "Beatrival:Int (Elimid):Bool (Lethalelim):Int (SpecificEliminationID)"
+	},
+	"Camerafilter": {
+		"Name": "Camerafilter",
+		"Description": "Enable or disable a specified camera filter (Without enabling the mode)",
+		"Example": "Camerafilter:String (Filter):Bool (Active)"
+	},
+	"Cameranumberforceenable": {
+		"Name": "Cameranumberforceenable",
+		"Description": "Forces to make the camera enable by finding it with it's ID",
+		"Example": "Cameranumberforceenable:Int (Value)"
+	},
+	"Cantalk": {
+		"Name": "Cantalk",
+		"Description": "Makes a student able or unable to talk with",
+		"Example": "Cantalk:Studentscript (Student):Bool (Value)"
+	},
+	"Changeactionname": {
+		"Name": "Changeactionname",
+		"Description": "Changes the action performed by the student in the specified slot",
+		"Example": "Changeactionname:Studentscript (Student):Int (Index):String (Action)"
+	},
+	"Changeallstudentsheight": {
+		"Name": "Changeallstudentsheight",
+		"Description": "Changes all the students' heights based on their gender (Only the height)",
+		"Example": "Changeallstudentsheight:String (Gender):Float (Height)"
+	},
+	"Changeallstudentsheight2": {
+		"Name": "Changeallstudentsheight2",
+		"Description": "Changes all the students' heights based on their gender (All body scales)",
+		"Example": "Changeallstudentsheight2:String (Gender):Float (Height)"
+	},
+	"Changecurrentdestinationlocation": {
+		"Name": "Changecurrentdestinationlocation",
+		"Description": "Change's the student's current destination location",
+		"Example": "Changecurrentdestinationlocation:Studentscript (Student):Vector3 (Value)"
+	},
+	"Changecurrentdestinationrotation": {
+		"Name": "Changecurrentdestinationrotation",
+		"Description": "Change's the student's current destination rotation",
+		"Example": "Changecurrentdestinationrotation:Studentscript (Student):Vector3 (Value)"
+	},
+	"Changeday": {
+		"Name": "Changeday",
+		"Description": "Changes the game's day",
+		"Example": "Changeday:Int (Value)"
+	},
+	"Changedestinationlocation": {
+		"Name": "Changedestinationlocation",
+		"Description": "Change's the student's specified destination location",
+		"Example": "Changedestinationlocation:Studentscript (Student):Int (Index):Vector3 (Value)"
+	},
+	"Changedestinationname": {
+		"Name": "Changedestinationname",
+		"Description": "Changes the name of the specified student's destination'",
+		"Example": "Changedestinationname:Studentscript (Student):Int (Index):String (Destination)"
+	},
+	"Changedestinationrotation": {
+		"Name": "Changedestinationrotation",
+		"Description": "Change's the student's specified destination rotation",
+		"Example": "Changedestinationrotation:Studentscript (Student):Int (Index):Vector3 (Value)"
+	},
+	"Changedestinationtargettoobject": {
+		"Name": "Changedestinationtargettoobject",
+		"Description": "Set student's current pathfinding target to the written object",
+		"Example": "Changedestinationtargettoobject:Studentscript (Student):Int (Index):Obj (Obj)"
+	},
+	"Changefemaleuniformstex": {
+		"Name": "Changefemaleuniformstex",
+		"Description": "Changes the texture of all female students",
+		"Example": "Changefemaleuniformstex:String (Path)"
+	},
+	"Changefontalluilabels": {
+		"Name": "Changefontalluilabels",
+		"Description": "Changes all UILabels fonts to the written one",
+		"Example": "Changefontalluilabels:String (Fontname)"
+	},
+	"Changemaleuniformstex": {
+		"Name": "Changemaleuniformstex",
+		"Description": "Changes the texture of all male students",
+		"Example": "Changemaleuniformstex:String (Path)"
+	},
+	"Changematerialshader.Throughfind": {
+		"Name": "Changematerialshader.Throughfind",
+		"Description": "Changes the selected material's object shader",
+		"Example": "Changematerialshader.Throughfind:Obj (Obj):Int (Material):String (Shader)"
+	},
+	"Changematerialshader.Throughrenderer": {
+		"Name": "Changematerialshader.Throughrenderer",
+		"Description": "Changes the selected material's object shader to the second object selected material's shader",
+		"Example": "Changematerialshader.Throughrenderer:Obj (Obj1):Int (Material1):Obj (Obj2):Int (Material2)"
+	},
+	"Changeoutlinecolor": {
+		"Name": "Changeoutlinecolor",
+		"Description": "Changes the student's outline color",
+		"Example": "Changeoutlinecolor:Studentscript (Student):Color (Color)"
+	},
+	"Changescheduledestinationtarget": {
+		"Name": "Changescheduledestinationtarget",
+		"Description": "Set student's specified pathfinding destination to the written position and rotation",
+		"Example": "Changescheduledestinationtarget:Studentscript (Student):Int (Index):Vector3 (Pos):Vector3 (Rot)"
+	},
+	"Changescheduledestinationtargettospot": {
+		"Name": "Changescheduledestinationtargettospot",
+		"Description": "Set student's current pathfinding destination to the written object",
+		"Example": "Changescheduledestinationtargettospot:Studentscript (Student):Int (Index):Obj (Obj)"
+	},
+	"Changeshaderfloat.Throughfind": {
+		"Name": "Changeshaderfloat.Throughfind",
+		"Description": "Changes the selected material's object shader float",
+		"Example": "Changeshaderfloat.Throughfind:Obj (Obj):Int (Material):String (Var):Float (Value)"
+	},
+	"Changeshaderint.Throughfind": {
+		"Name": "Changeshaderint.Throughfind",
+		"Description": "Changes the selected material's object shader int",
+		"Example": "Changeshaderint.Throughfind:Obj (Obj):Int (Material):String (Var):Int (Value)"
+	},
+	"Changeshoes": {
+		"Name": "Changeshoes",
+		"Description": "Changes a student's shoes to indoor ones",
+		"Example": "Changeshoes:Studentscript (Student)"
+	},
+	"Changeshoes2": {
+		"Name": "Changeshoes2",
+		"Description": "Makes student go to the locker and change shoes",
+		"Example": "Changeshoes2:Studentscript (Student)"
+	},
+	"Changestudentheight": {
+		"Name": "Changestudentheight",
+		"Description": "Changes a student's height (Only the height)",
+		"Example": "Changestudentheight:Studentscript (Student):Float (Height)"
+	},
+	"Changestudentheight2": {
+		"Name": "Changestudentheight2",
+		"Description": "Changes a student's height (All body scales)",
+		"Example": "Changestudentheight2:Studentscript (Student):Float (Height)"
+	},
+	"Changeuilabelfont": {
+		"Name": "Changeuilabelfont",
+		"Description": "Changes a UILabel font to the written one",
+		"Example": "Changeuilabelfont:Obj (Label):String (Fontname)"
+	},
+	"Changeweaponname": {
+		"Name": "Changeweaponname",
+		"Description": "Changes the name of a weapon (Old name, New name)",
+		"Example": "Changeweaponname:String (Weaponname):String (Newname)"
+	},
+	"Changeweek": {
+		"Name": "Changeweek",
+		"Description": "Changes the game's week",
+		"Example": "Changeweek:Int (Value)"
+	},
+	"Changeyanname": {
+		"Name": "Changeyanname",
+		"Description": "Changes Ayano's displayed name",
+		"Example": "Changeyanname:String (Newname)"
+	},
+	"Changeyanuniform": {
+		"Name": "Changeyanuniform",
+		"Description": "Changes Ayano's uniform to another in-game uniform",
+		"Example": "Changeyanuniform:Int (Value)"
+	},
+	"Characteraddanimations": {
+		"Name": "Characteraddanimations",
+		"Description": "Gives a student all animations coming from a bundle",
+		"Example": "Characteraddanimations:String (Filename):Studentscript (Student)"
+	},
+	"Characteraddnew": {
+		"Name": "Characteraddnew",
+		"Description": "Gives a student all animations",
+		"Example": "Characteraddnew:Studentscript (Student)"
+	},
+	"Characteraddnewfrom": {
+		"Name": "Characteraddnewfrom",
+		"Description": "Gives a student all the animations coming from another student",
+		"Example": "Characteraddnewfrom:Studentscript (Targetstudent):Studentscript (Student)"
+	},
+	"Characteraddnewlight": {
+		"Name": "Characteraddnewlight",
+		"Description": "Gives a student all Ayano's animations and the ones coming from the loaded asset (AssetBundle)",
+		"Example": "Characteraddnewlight:Studentscript (Student)"
+	},
+	"Characteranimationcrossfade": {
+		"Name": "Characteranimationcrossfade",
+		"Description": "Makes a student's animation crossfade",
+		"Example": "Characteranimationcrossfade:Studentscript (Student):String (Anim)"
+	},
+	"Characteranimationcrossfadeuntilend": {
+		"Name": "Characteranimationcrossfadeuntilend",
+		"Description": "Makes a student's animation crossfade to the written animation until end",
+		"Example": "Characteranimationcrossfadeuntilend:Studentscript (Student):String (Anim)"
+	},
+	"Characteranimationplay": {
+		"Name": "Characteranimationplay",
+		"Description": "Makes a student play an animation",
+		"Example": "Characteranimationplay:Studentscript (Student):String (Anim)"
+	},
+	"Characteranimationplayuntilend": {
+		"Name": "Characteranimationplayuntilend",
+		"Description": "Makes a student play the written animation until end",
+		"Example": "Characteranimationplayuntilend:Studentscript (Student):String (Anim)"
+	},
+	"Characteranimationspeed": {
+		"Name": "Characteranimationspeed",
+		"Description": "Changes the student animation's speed",
+		"Example": "Characteranimationspeed:Studentscript (Student):String (Anim):Float (Value)"
+	},
+	"Characteranimationstop": {
+		"Name": "Characteranimationstop",
+		"Description": "Makes a student stop playing an animation",
+		"Example": "Characteranimationstop:Studentscript (Student)"
+	},
+	"Charactergetdestinations": {
+		"Name": "Charactergetdestinations",
+		"Description": "Writes in a file all character's destinations",
+		"Example": "Charactergetdestinations:Studentscript (Student)"
+	},
+	"Characterplace": {
+		"Name": "Characterplace",
+		"Description": "Places a character anywhere in the scene",
+		"Example": "Characterplace:Studentscript (Student):Vector3 (Location)"
+	},
+	"Characterreplaceanim": {
+		"Name": "Characterreplaceanim",
+		"Description": "Replaces a student animation",
+		"Example": "Characterreplaceanim:Studentscript (Student):String (Oldanim):String (Newanim)"
+	},
+	"Charactersetanimloop": {
+		"Name": "Charactersetanimloop",
+		"Description": "Loops or stops to loop the animation of a student",
+		"Example": "Charactersetanimloop:Studentscript (Student):String (Anim):Int (Value)"
+	},
+	"Charactersetbrokenanim": {
+		"Name": "Charactersetbrokenanim",
+		"Description": "Changes the broken idle animation that comes when the student has no sanity",
+		"Example": "Charactersetbrokenanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetbrokensitanim": {
+		"Name": "Charactersetbrokensitanim",
+		"Description": "Changes the broken sit animation that comes when the student has no sanity",
+		"Example": "Charactersetbrokensitanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetbrokenwalkanim": {
+		"Name": "Charactersetbrokenwalkanim",
+		"Description": "Changes the broken walk animation that comes when the student has no sanity",
+		"Example": "Charactersetbrokenwalkanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetbulliedidleanim": {
+		"Name": "Charactersetbulliedidleanim",
+		"Description": "Changes the bullied idle animation of the student",
+		"Example": "Charactersetbulliedidleanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetbulliedwalkanim": {
+		"Name": "Charactersetbulliedwalkanim",
+		"Description": "Changes the bullied walk animation of the student",
+		"Example": "Charactersetbulliedwalkanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetcamerareactionanim": {
+		"Name": "Charactersetcamerareactionanim",
+		"Description": "Changes the student's animation of reacting to the camera",
+		"Example": "Charactersetcamerareactionanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetclub": {
+		"Name": "Charactersetclub",
+		"Description": "Changes the student's club",
+		"Example": "Charactersetclub:Studentscript (Student):Int (Newclub)"
+	},
+	"Charactersetclubanim": {
+		"Name": "Charactersetclubanim",
+		"Description": "Changes the animation the student performs on club activity",
+		"Example": "Charactersetclubanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetcrush": {
+		"Name": "Charactersetcrush",
+		"Description": "Changes the student's crush",
+		"Example": "Charactersetcrush:Studentscript (Student):Int (Newcrush)"
+	},
+	"Charactersetidleanim": {
+		"Name": "Charactersetidleanim",
+		"Description": "Sets the idle animation of a student",
+		"Example": "Charactersetidleanim:Studentscript (Student):String (Anim)"
+	},
+	"Charactersetinfo": {
+		"Name": "Charactersetinfo",
+		"Description": "Changes the information tab of a student",
+		"Example": "Charactersetinfo:Studentscript (Student):String (Newinfo)"
+	},
+	"Charactersetname": {
+		"Name": "Charactersetname",
+		"Description": "Changes the student's name",
+		"Example": "Charactersetname:Studentscript (Student):String (Newname)"
+	},
+	"Charactersetpatrolanim": {
+		"Name": "Charactersetpatrolanim",
+		"Description": "Changes the student's patrol animation",
+		"Example": "Charactersetpatrolanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetpersona": {
+		"Name": "Charactersetpersona",
+		"Description": "Changes the student's persona",
+		"Example": "Charactersetpersona:Studentscript (Student):Int (Newpersona)"
+	},
+	"Charactersetpersonality": {
+		"Name": "Charactersetpersonality",
+		"Description": "Changes the student's personality",
+		"Example": "Charactersetpersonality:Studentscript (Student):Int (Value)"
+	},
+	"Charactersetpesonality": {
+		"Name": "Charactersetpesonality",
+		"Description": "Changes the student's personality",
+		"Example": "Charactersetpesonality:Studentscript (Student):Int (Value)"
+	},
+	"Charactersetrealname": {
+		"Name": "Charactersetrealname",
+		"Description": "Changes the real student's name",
+		"Example": "Charactersetrealname:Studentscript (Student):String (Newname)"
+	},
+	"Charactersetrelaxanim": {
+		"Name": "Charactersetrelaxanim",
+		"Description": "Changes the student's relax animation",
+		"Example": "Charactersetrelaxanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetrunanim": {
+		"Name": "Charactersetrunanim",
+		"Description": "Sets the run animation of a student",
+		"Example": "Charactersetrunanim:Studentscript (Student):String (Anim)"
+	},
+	"Charactersetshoveanim": {
+		"Name": "Charactersetshoveanim",
+		"Description": "Changes the shove (Push) animation of a student",
+		"Example": "Charactersetshoveanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetsitanim": {
+		"Name": "Charactersetsitanim",
+		"Description": "Changes the student's sit animation",
+		"Example": "Charactersetsitanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetsocializeanim": {
+		"Name": "Charactersetsocializeanim",
+		"Description": "Changes the socialize animation of a student",
+		"Example": "Charactersetsocializeanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetspawnposition": {
+		"Name": "Charactersetspawnposition",
+		"Description": "Changes the position where the character spawns",
+		"Example": "Charactersetspawnposition:Int (Id):Vector3 (Pos):Vector3 (Rot)"
+	},
+	"Charactersetsprayanimation": {
+		"Name": "Charactersetsprayanimation",
+		"Description": "Changes the spray animation of a student (Student Council use them to spray Ayano)",
+		"Example": "Charactersetsprayanimation:Studentscript (Student):String (Value)"
+	},
+	"Charactersetstalkanim": {
+		"Name": "Charactersetstalkanim",
+		"Description": "Changes the animation the student performs while stalking",
+		"Example": "Charactersetstalkanim:Studentscript (Student):String (Value)"
+	},
+	"Charactersetvisiondistance": {
+		"Name": "Charactersetvisiondistance",
+		"Description": "Changes the student's sight distance",
+		"Example": "Charactersetvisiondistance:Studentscript (Student):Float (Value)"
+	},
+	"Charactersetwalkanim": {
+		"Name": "Charactersetwalkanim",
+		"Description": "Sets the walk animation of a student",
+		"Example": "Charactersetwalkanim:Studentscript (Student):String (Anim)"
+	},
+	"Charactertoedit": {
+		"Name": "Charactertoedit",
+		"Description": "Stops/Restarts the student's pathfinding process along with the StudentScript",
+		"Example": "Charactertoedit:Studentscript (Student):Bool (Value)"
+	},
+	"Charactertoedit2": {
+		"Name": "Charactertoedit2",
+		"Description": "Chooses if the student is the edited character",
+		"Example": "Charactertoedit2:Studentscript (Student):Bool (Value)"
+	},
+	"Childmeshcolor": {
+		"Name": "Childmeshcolor",
+		"Description": "Changes the color of the child objects' meshes",
+		"Example": "Childmeshcolor:Obj (Obj):String (Name):Color (Color)"
+	},
+	"Childskinnedmeshcolor": {
+		"Name": "Childskinnedmeshcolor",
+		"Description": "Changes the color of the child objects' skinned meshes",
+		"Example": "Childskinnedmeshcolor:Obj (Obj):String (Name):Color (Color)"
+	},
+	"Classseatposition": {
+		"Name": "Classseatposition",
+		"Description": "Changes Ayano's seat position for class",
+		"Example": "Classseatposition:Vector3 (Value)"
+	},
+	"Closemenu": {
+		"Name": "Closemenu",
+		"Description": "Closes the PoseMod menu",
+		"Example": "Closemenu"
+	},
+	"Consolelog": {
+		"Name": "Consolelog",
+		"Description": "Logs a message in the console",
+		"Example": "Consolelog:String (Str)"
+	},
+	"Createcapsule": {
+		"Name": "Createcapsule",
+		"Description": "Creates a capsule",
+		"Example": "Createcapsule:String (Newname)"
+	},
+	"Createcube": {
+		"Name": "Createcube",
+		"Description": "Creates a cube",
+		"Example": "Createcube:String (Newname)"
+	},
+	"Createcylinder": {
+		"Name": "Createcylinder",
+		"Description": "Creates a cylinder",
+		"Example": "Createcylinder:String (Newname)"
+	},
+	"Createplane": {
+		"Name": "Createplane",
+		"Description": "Creates a plane",
+		"Example": "Createplane:String (Newname)"
+	},
+	"Createquad": {
+		"Name": "Createquad",
+		"Description": "Creates a quad",
+		"Example": "Createquad:String (Newname)"
+	},
+	"Createsphere": {
+		"Name": "Createsphere",
+		"Description": "Creates a sphere",
+		"Example": "Createsphere:String (Newname)"
+	},
+	"Deattach": {
+		"Name": "Deattach",
+		"Description": "Unparents an object",
+		"Example": "Deattach:Obj (Obj)"
+	},
+	"Decatmosphere": {
+		"Name": "Decatmosphere",
+		"Description": "Decreases the game atmosphere",
+		"Example": "Decatmosphere:Float (Value)"
+	},
+	"Decreputation": {
+		"Name": "Decreputation",
+		"Description": "Decreases a student reputation",
+		"Example": "Decreputation:Studentscript (Student):Float (Value)"
+	},
+	"Decsanity": {
+		"Name": "Decsanity",
+		"Description": "Decreases Ayano's sanity",
+		"Example": "Decsanity:Float (Value)"
+	},
+	"Dectimescale": {
+		"Name": "Dectimescale",
+		"Description": "Decreases time scale",
+		"Example": "Dectimescale:Float (Value)"
+	},
+	"Deleteall": {
+		"Name": "Deleteall",
+		"Description": "Deletes all objects in scene",
+		"Example": "Deleteall"
+	},
+	"Delistudhair": {
+		"Name": "Delistudhair",
+		"Description": "Puts object as the student's hairstyle",
+		"Example": "Delistudhair:Obj (Obj):Studentscript (Student)"
+	},
+	"Deliyanhair": {
+		"Name": "Deliyanhair",
+		"Description": "Puts object as Ayano's hairstyle",
+		"Example": "Deliyanhair:Obj (Obj)"
+	},
+	"Deliyanhairtex": {
+		"Name": "Deliyanhairtex",
+		"Description": "Textures Ayano's object hair set with DeliYanHair (Used under the OpenTexture command)",
+		"Example": "Deliyanhairtex:Obj (Obj)"
+	},
+	"Deliyanhairtex2": {
+		"Name": "Deliyanhairtex2",
+		"Description": "Textures Ayano's object hair set with DeliYanHair (Used under the OpenTexture command",
+		"Example": "Deliyanhairtex2:Obj (Obj)"
+	},
+	"Destroy": {
+		"Name": "Destroy",
+		"Description": "Destroys object",
+		"Example": "Destroy:Obj (Obj)"
+	},
+	"Destroyyanpanties": {
+		"Name": "Destroyyanpanties",
+		"Description": "Disables Ayano's panties",
+		"Example": "Destroyyanpanties"
+	},
+	"Destroyyanpantys": {
+		"Name": "Destroyyanpantys",
+		"Description": "Disables Ayano's panties",
+		"Example": "Destroyyanpantys"
+	},
+	"Disablestudentprompt": {
+		"Name": "Disablestudentprompt",
+		"Description": "Disables the student's prompts",
+		"Example": "Disablestudentprompt:Studentscript (Student)"
+	},
+	"Disabletrigger": {
+		"Name": "Disabletrigger",
+		"Description": "Disables a trigger by value",
+		"Example": "Disabletrigger:Int (Value)"
+	},
+	"Displayimage": {
+		"Name": "Displayimage",
+		"Description": "Display an image, choose the position (X,Y), Width, Height and ID",
+		"Example": "Displayimage:String (Filename):Float (X):Float (Y):Float (Width):Float (Height):String (Id)"
+	},
+	"Displayimage.Change": {
+		"Name": "Displayimage.Change",
+		"Description": "Change displayed image by ID to the new image",
+		"Example": "Displayimage.Change:String (Id):String (Filename)"
+	},
+	"Displayimagefromsize": {
+		"Name": "Displayimagefromsize",
+		"Description": "Display an image with it's file size",
+		"Example": "Displayimagefromsize:String (Filename):String (Id)"
+	},
+	"Disposewww": {
+		"Name": "Disposewww",
+		"Description": "Dispose WWW url",
+		"Example": "Disposewww"
+	},
+	"Distanceaudio": {
+		"Name": "Distanceaudio",
+		"Description": "Changes the audio distance impact",
+		"Example": "Distanceaudio:Obj (Obj):Float (Outdistance):Float (Indistance)"
+	},
+	"Distanceaudio2": {
+		"Name": "Distanceaudio2",
+		"Description": "Changes the audio distance impact",
+		"Example": "Distanceaudio2:Obj (Obj)"
+	},
+	"Dontdestroyonload": {
+		"Name": "Dontdestroyonload",
+		"Description": "Prevents object from being destroyed when loading a scene",
+		"Example": "Dontdestroyonload:Obj (Obj)"
+	},
+	"Dostudaccessory": {
+		"Name": "Dostudaccessory",
+		"Description": "Gives to a student Ayano's club accessories",
+		"Example": "Dostudaccessory:Studentscript (Student):Int (Accessory)"
+	},
+	"Dostudhair": {
+		"Name": "Dostudhair",
+		"Description": "Gives to a student one of Ayano's custom hair coming from /StreamingAssets/YanHairs",
+		"Example": "Dostudhair:Studentscript (Student):String (Hair)"
+	},
+	"Dostudhair2": {
+		"Name": "Dostudhair2",
+		"Description": "Gives to a student one of Ayano's custom hair coming from /StreamingAssets/YanHairs",
+		"Example": "Dostudhair2:Studentscript (Student):String (Hair)"
+	},
+	"Dostudhair3": {
+		"Name": "Dostudhair3",
+		"Description": "Gives to a student one of Ayano's custom hair coming from /StreamingAssets/YanHairs",
+		"Example": "Dostudhair3:Obj (Obj):Studentscript (Student)"
+	},
+	"Drownable": {
+		"Name": "Drownable",
+		"Description": "Makes so that a student is drownable or not",
+		"Example": "Drownable:Studentscript (Student):Bool (Value)"
+	},
+	"Duplicate": {
+		"Name": "Duplicate",
+		"Description": "Duplicates object with a new name",
+		"Example": "Duplicate:Obj (Obj):String (Newname)"
+	},
+	"Duplicate2": {
+		"Name": "Duplicate2",
+		"Description": "Duplicates object with a new name to the chosen position and rotation",
+		"Example": "Duplicate2:Obj (Obj):String (Newname):Vector3 (Pos):Vector3 (Rot)"
+	},
+	"Duplicatechild": {
+		"Name": "Duplicatechild",
+		"Description": "Duplicates child objects found by the first name and renames the duplication with the second name",
+		"Example": "Duplicatechild:Obj (Obj):String (Name):String (Newname)"
+	},
+	"Eavesdropping": {
+		"Name": "Eavesdropping",
+		"Description": "Creates a eavesdropping place on the written position",
+		"Example": "Eavesdropping:String (Name):Vector3 (Position):Float (Distance)"
+	},
+	"Editobject": {
+		"Name": "Editobject",
+		"Description": "Sets an object as the EditObject of the current cutscene. (Same of SetEditObject)",
+		"Example": "Editobject:Obj (Obj)"
+	},
+	"Editrichpresencedescription": {
+		"Name": "Editrichpresencedescription",
+		"Description": "Edits the Discord RPC (Rich Presence) description",
+		"Example": "Editrichpresencedescription:String (Levelname):String (Description)"
+	},
+	"Editrichpresencedetail": {
+		"Name": "Editrichpresencedetail",
+		"Description": "Edits the Discord RPC (Rich Presence) details",
+		"Example": "Editrichpresencedetail:String (Description)"
+	},
+	"Emptystudentmesh": {
+		"Name": "Emptystudentmesh",
+		"Description": "Empties the student mesh",
+		"Example": "Emptystudentmesh:Studentscript (Student)"
+	},
+	"Enablebloodeffect": {
+		"Name": "Enablebloodeffect",
+		"Description": "Enables blood effects on the written object",
+		"Example": "Enablebloodeffect:Obj (Gameobject)"
+	},
+	"Enablebloodfountain": {
+		"Name": "Enablebloodfountain",
+		"Description": "Makes the student's blood fountain appear",
+		"Example": "Enablebloodfountain:Studentscript (Student)"
+	},
+	"Enablecomponent": {
+		"Name": "Enablecomponent",
+		"Description": "Enables/Disables components",
+		"Example": "Enablecomponent:Obj (Obj):String (Compname):Bool (Value)"
+	},
+	"Enabledebugmenu": {
+		"Name": "Enabledebugmenu",
+		"Description": "Enables or disables the debug menu",
+		"Example": "Enabledebugmenu:Bool (Value)"
+	},
+	"Enableeastereggs": {
+		"Name": "Enableeastereggs",
+		"Description": "Enables/Disables the easter egg menu",
+		"Example": "Enableeastereggs:Bool (Value)"
+	},
+	"Enablegameobject": {
+		"Name": "Enablegameobject",
+		"Description": "Enables or disables a gameobject",
+		"Example": "Enablegameobject:String (Obj):Bool (Value)"
+	},
+	"Enablegameobjectcomponents": {
+		"Name": "Enablegameobjectcomponents",
+		"Description": "Enables or disables all gameobject components",
+		"Example": "Enablegameobjectcomponents:Obj (Obj):Bool (Value)"
+	},
+	"Enablegigglelines": {
+		"Name": "Enablegigglelines",
+		"Description": "Enables the giggle lines, if Sane is false the lines will be the insane ones",
+		"Example": "Enablegigglelines:Bool (Sane)"
+	},
+	"Enablepoliceinfo": {
+		"Name": "Enablepoliceinfo",
+		"Description": "Starts or stops the police arrival to the school",
+		"Example": "Enablepoliceinfo:Bool (Active)"
+	},
+	"Enableposemodmenu": {
+		"Name": "Enableposemodmenu",
+		"Description": "Enables or disables the pose mod menu",
+		"Example": "Enableposemodmenu:Bool (Value)"
+	},
+	"Enablerigidbody": {
+		"Name": "Enablerigidbody",
+		"Description": "Enables rigidbody to object",
+		"Example": "Enablerigidbody:Obj (Obj)"
+	},
+	"Enablesleepeffect": {
+		"Name": "Enablesleepeffect",
+		"Description": "Enables the sleep effect lines, but it doesn't make the student sleep",
+		"Example": "Enablesleepeffect:Studentscript (Student):Bool (Value)"
+	},
+	"Enablespeechlines": {
+		"Name": "Enablespeechlines",
+		"Description": "Enables the speech lines students use when talking, if the bool is true the students will show the deliquent speechlines",
+		"Example": "Enablespeechlines:Studentscript (Student):Bool (Value)"
+	},
+	"Enablestudentprompt": {
+		"Name": "Enablestudentprompt",
+		"Description": "Enables the student's prompts",
+		"Example": "Enablestudentprompt:Studentscript (Student)"
+	},
+	"Eyeshrink": {
+		"Name": "Eyeshrink",
+		"Description": "Makes a student eye shrink by [value]",
+		"Example": "Eyeshrink:Studentscript (Student):Float (Value)"
+	},
+	"Fade": {
+		"Name": "Fade",
+		"Description": "Starts a colored fade that follows the written speed",
+		"Example": "Fade:Color (Thecolor):Float (Speed)"
+	},
+	"Fence": {
+		"Name": "Fence",
+		"Description": "Enables in-game fences",
+		"Example": "Fence:bool (Value) [Currently unused]"
+	},
+	"Fence.Set": {
+		"Name": "Fence.Set",
+		"Description": "Enables or disables in-game fences",
+		"Example": "Fence.Set:Bool (Value)"
+	},
+	"Findcameranumber": {
+		"Name": "Findcameranumber",
+		"Description": "Find the number of the camera by INT",
+		"Example": "Findcameranumber:Int (Value)"
+	},
+	"Findobjectwithscript": {
+		"Name": "Findobjectwithscript",
+		"Description": "Find the object with the specified script",
+		"Example": "Findobjectwithscript:String (Scriptname)"
+	},
+	"Findtransform": {
+		"Name": "Findtransform",
+		"Description": "Sets an object as the EditObject of the current cutscene. (Same of SetEditObject)",
+		"Example": "Findtransform:Obj (Obj)"
+	},
+	"Findtransformat": {
+		"Name": "Findtransformat",
+		"Description": "Sets the nearest object to the distance as the EditObject of the current cutscene",
+		"Example": "Findtransformat:Vector3 (Location):Float (Distance)"
+	},
+	"Findtrigger": {
+		"Name": "Findtrigger",
+		"Description": "Find a trigger by value",
+		"Example": "Findtrigger:Int (Value)"
+	},
+	"Firstpersoncam": {
+		"Name": "Firstpersoncam",
+		"Description": "Activates a first person camera",
+		"Example": "Firstpersoncam:Bool (Value)"
+	},
+	"Floatrange": {
+		"Name": "Floatrange",
+		"Description": "Sets the range of random values for FLOAT",
+		"Example": "Floatrange:Float (Min):Float (Max)"
+	},
+	"Flycamera": {
+		"Name": "Flycamera",
+		"Description": "Enables/Disables PoseMod's camera flight",
+		"Example": "Flycamera:Bool (Value)"
+	},
+	"Fog.Color": {
+		"Name": "Fog.Color",
+		"Description": "Changes fog's color",
+		"Example": "Fog.Color:Color (Value)"
+	},
+	"Fog.Density": {
+		"Name": "Fog.Density",
+		"Description": "Changes fog's density",
+		"Example": "Fog.Density:Float (Value)"
+	},
+	"Fog.Enabled": {
+		"Name": "Fog.Enabled",
+		"Description": "Enables or disables fog",
+		"Example": "Fog.Enabled:Bool (Value)"
+	},
+	"Fog.Enddistance": {
+		"Name": "Fog.Enddistance",
+		"Description": "Changes fog's end distance",
+		"Example": "Fog.Enddistance:Float (Value)"
+	},
+	"Fog.Startdistance": {
+		"Name": "Fog.Startdistance",
+		"Description": "Changes fog's start distance",
+		"Example": "Fog.Startdistance:Float (Value)"
+	},
+	"Forcecrash": {
+		"Name": "Forcecrash",
+		"Description": "Forces crash (0 Mode example)",
+		"Example": "Forcecrash:Int (Mode)"
+	},
+	"Forcelocalposition": {
+		"Name": "Forcelocalposition",
+		"Description": "Forces the object's local position",
+		"Example": "Forcelocalposition:Obj (Obj):Vector3 (Pos)"
+	},
+	"Forcelocalrotation": {
+		"Name": "Forcelocalrotation",
+		"Description": "Forces the object's local rotation",
+		"Example": "Forcelocalrotation:Obj (Obj):Vector3 (Rot)"
+	},
+	"Forceposition": {
+		"Name": "Forceposition",
+		"Description": "Forces the object's position",
+		"Example": "Forceposition:Obj (Obj):Vector3 (Pos)"
+	},
+	"Forcerotation": {
+		"Name": "Forcerotation",
+		"Description": "Forces the object's rotation",
+		"Example": "Forcerotation:Obj (Obj):Vector3 (Rot)"
+	},
+	"Forcescale": {
+		"Name": "Forcescale",
+		"Description": "Forces the object's scale",
+		"Example": "Forcescale:Obj (Obj):Vector3 (Scl)"
+	},
+	"Freezeallstudents": {
+		"Name": "Freezeallstudents",
+		"Description": "Freezes or sets free all students",
+		"Example": "Freezeallstudents:Bool (Active)"
+	},
+	"Gameobjectaddanimations": {
+		"Name": "Gameobjectaddanimations",
+		"Description": "Add animations to gameobject",
+		"Example": "Gameobjectaddanimations:String (Filename):Obj (Obj)"
+	},
+	"Getgameobjectinfos": {
+		"Name": "Getgameobjectinfos",
+		"Description": "Get informations about a gameobject",
+		"Example": "Getgameobjectinfos:Obj (Obj)"
+	},
+	"Getobjectcomponents": {
+		"Name": "Getobjectcomponents",
+		"Description": "Get all components from an object",
+		"Example": "Getobjectcomponents:Obj (Obj)"
+	},
+	"Getsceneinfos": {
+		"Name": "Getsceneinfos",
+		"Description": "Exports informations from the scene",
+		"Example": "Getsceneinfos"
+	},
+	"Givehint": {
+		"Name": "Givehint",
+		"Description": "Gives a hint to the player",
+		"Example": "Givehint:Int (Quickid)"
+	},
+	"Gravity.Reset": {
+		"Name": "Gravity.Reset",
+		"Description": "Resets gravity",
+		"Example": "Gravity.Reset"
+	},
+	"Gravity.Set": {
+		"Name": "Gravity.Set",
+		"Description": "Sets gravity with XYZ values",
+		"Example": "Gravity.Set:Vector3 (Value)"
+	},
+	"Gravity.Zerogravity": {
+		"Name": "Gravity.Zerogravity",
+		"Description": "Put zero gravity",
+		"Example": "Gravity.Zerogravity"
+	},
+	"Haircolor": {
+		"Name": "Haircolor",
+		"Description": "Changes a student's hair color",
+		"Example": "Haircolor:Studentscript (Student):Color (Color)"
+	},
+	"Hairfromyanto": {
+		"Name": "Hairfromyanto",
+		"Description": "Gives a student an Ayano's hairstyle coming from /StreamingAssets/YanHairs",
+		"Example": "Hairfromyanto:Studentscript (Student):String (Hair)"
+	},
+	"Hairfromyanto2": {
+		"Name": "Hairfromyanto2",
+		"Description": "Gives a student an Ayano's hairstyle coming from /StreamingAssets/YanHairs and renames its RefName",
+		"Example": "Hairfromyanto2:Studentscript (Student):String (Hair):String (Newname)"
+	},
+	"Hairstyle": {
+		"Name": "Hairstyle",
+		"Description": "Changes a student hairstyle",
+		"Example": "Hairstyle:Studentscript (Student):Int (Hair)"
+	},
+	"Hairtoyan": {
+		"Name": "Hairtoyan",
+		"Description": "Gives Ayano a student's hairstyle",
+		"Example": "Hairtoyan:String (Hair)"
+	},
+	"Hairtoyan2": {
+		"Name": "Hairtoyan2",
+		"Description": "Gives Ayano a student's hairstyle and renames its RefName",
+		"Example": "Hairtoyan2:String (Hair):String (Newname)"
+	},
+	"Holdframe": {
+		"Name": "Holdframe",
+		"Description": "Sets If It Runs The Same Command Again.",
+		"Example": "Holdframe:Bool"
+	},
+	"Horrorsky": {
+		"Name": "Horrorsky",
+		"Description": "Enables the horror sky",
+		"Example": "Horrorsky"
+	},
+	"Hud": {
+		"Name": "Hud",
+		"Description": "Disables HUD visibility",
+		"Example": "Hud:Bool (Value)"
+	},
+	"Hud2": {
+		"Name": "Hud2",
+		"Description": "Disables 2nd HUD visibility",
+		"Example": "Hud2:Bool (Value)"
+	},
+	"Hud3": {
+		"Name": "Hud3",
+		"Description": "Disables 3rd HUD visibility",
+		"Example": "Hud3:Bool (Value)"
+	},
+	"Ignorecol": {
+		"Name": "Ignorecol",
+		"Description": "Makes an object ignore collision with any objects named [name]",
+		"Example": "Ignorecol:Obj (Obj):String (Name)"
+	},
+	"Inevent": {
+		"Name": "Inevent",
+		"Description": "Changes if the student is considered in an event or not",
+		"Example": "Inevent:Studentscript (Student):Bool (Value)"
+	},
+	"Intrange": {
+		"Name": "Intrange",
+		"Description": "Sets the range of random values for INT",
+		"Example": "Intrange:Int (Min):Int (Max)"
+	},
+	"Invokemethodex": {
+		"Name": "Invokemethodex",
+		"Description": "Invokes method from Plugins folder ",
+		"Example": "Invokemethodex:String (Filename):String (Typename):String (Membername):String (Args)"
+	},
+	"Invokestudentmethod": {
+		"Name": "Invokestudentmethod",
+		"Description": "Invokes (Starts) a function coming from the specified StudentScript",
+		"Example": "Invokestudentmethod:Studentscript (Student):String (Method)"
+	},
+	"Jigglebone.Add": {
+		"Name": "Jigglebone.Add",
+		"Description": "Add jigglebone/dynamicbone to the object",
+		"Example": "Jigglebone.Add:Obj (Obj)"
+	},
+	"Jigglebone.Damping": {
+		"Name": "Jigglebone.Damping",
+		"Description": "Changes the object's jigglebone damping value",
+		"Example": "Jigglebone.Damping:Obj (Obj):Float (Value)"
+	},
+	"Jigglebone.Enabled": {
+		"Name": "Jigglebone.Enabled",
+		"Description": "Enables or disables a jigglebone component from an object",
+		"Example": "Jigglebone.Enabled:Obj (Obj):Bool (Value)"
+	},
+	"Jigglebone.Gravity": {
+		"Name": "Jigglebone.Gravity",
+		"Description": "Changes the object's jigglebone gravity value",
+		"Example": "Jigglebone.Gravity:Obj (Obj):Float (Value)"
+	},
+	"Jigglebone.Mass": {
+		"Name": "Jigglebone.Mass",
+		"Description": "Changes the object's jigglebone mass value",
+		"Example": "Jigglebone.Mass:Obj (Obj):Float (Value)"
+	},
+	"Jigglebone.Targetdistance": {
+		"Name": "Jigglebone.Targetdistance",
+		"Description": "Changes the object's jigglebone target distance value",
+		"Example": "Jigglebone.Targetdistance:Obj (Obj):Float (Value)"
+	},
+	"Key": {
+		"Name": "Key",
+		"Description": "Sets that is the player presses the key [key] the cutscene [cutscene] will run.",
+		"Example": "Key:String (Key):String (Cutscene):Bool (Once)"
+	},
+	"Key2": {
+		"Name": "Key2",
+		"Description": "Sets that is the player presses the key [key] the cutscene [cutscene] will run.",
+		"Example": "Key2:String (Key):String (Cutscene):Bool (Once):String (Objname)"
+	},
+	"Killbydeathtype": {
+		"Name": "Killbydeathtype",
+		"Description": "Kills the student by specifying the death type (1 = Normal Death, 2 = Poisoned, 3 = Tranquil, 4 = Decapitated, 5 = Set on fire, 6 = Dismembered)",
+		"Example": "Killbydeathtype:Studentscript (Student):Int (Deathtype)"
+	},
+	"Killcharacter": {
+		"Name": "Killcharacter",
+		"Description": "Kills a character",
+		"Example": "Killcharacter:Studentscript (Student)"
+	},
+	"Layertoyan": {
+		"Name": "Layertoyan",
+		"Description": "Changes Ayano's layer for the object",
+		"Example": "Layertoyan:Obj (Obj)"
+	},
+	"Layertoyan2": {
+		"Name": "Layertoyan2",
+		"Description": "Changes Ayano's layer for the children of the object",
+		"Example": "Layertoyan2:Obj (Obj)"
+	},
+	"Lefteyecolor": {
+		"Name": "Lefteyecolor",
+		"Description": "Changes the left eye student's color",
+		"Example": "Lefteyecolor:Studentscript (Student):Color (Color)"
+	},
+	"Light.Brightness": {
+		"Name": "Light.Brightness",
+		"Description": "Changes the light source brightness from an object",
+		"Example": "Light.Brightness:Obj (Obj):Float (Value)"
+	},
+	"Light.Color": {
+		"Name": "Light.Color",
+		"Description": "Changes the light source color from an object",
+		"Example": "Light.Color:Obj (Obj):Color (Color)"
+	},
+	"Light.Create": {
+		"Name": "Light.Create",
+		"Description": "Creates a light source with name, spot angle and range",
+		"Example": "Light.Create:String (Name):String (Type):Float (Spotangle):Float (Range)"
+	},
+	"Light.Enabled": {
+		"Name": "Light.Enabled",
+		"Description": "Enables/Disables a light source from an object",
+		"Example": "Light.Enabled:Obj (Obj):Bool (Value)"
+	},
+	"Listallcommands": {
+		"Name": "Listallcommands",
+		"Description": "Lists All Commands",
+		"Example": "Listallcommands"
+	},
+	"Listallfilters": {
+		"Name": "Listallfilters",
+		"Description": "Writes a list of all filters",
+		"Example": "Listallfilters"
+	},
+	"Listallobjectanims": {
+		"Name": "Listallobjectanims",
+		"Description": "Lists all animations of the object",
+		"Example": "Listallobjectanims:Obj (Obj)"
+	},
+	"Listhairs": {
+		"Name": "Listhairs",
+		"Description": "Gives a list of all in game ayano's hairstyle names (the one coming from /StreamingAssets/YanHairs)",
+		"Example": "Listhairs"
+	},
+	"Listobjcomponents": {
+		"Name": "Listobjcomponents",
+		"Description": "Lists all object components",
+		"Example": "Listobjcomponents:Obj (Obj)"
+	},
+	"Liststudentnames": {
+		"Name": "Liststudentnames",
+		"Description": "Writes all the students names",
+		"Example": "Liststudentnames"
+	},
+	"Loadfontfrombundle": {
+		"Name": "Loadfontfrombundle",
+		"Description": "Loads a font from an assetbundle, the FileName must match with the font name",
+		"Example": "Loadfontfrombundle:String (Filename):String (Fontname)"
+	},
+	"Loadfrombundle": {
+		"Name": "Loadfrombundle",
+		"Description": "Loads object from bundle",
+		"Example": "Loadfrombundle:String (Path):String (Name):String (Name2)"
+	},
+	"Loadlevel": {
+		"Name": "Loadlevel",
+		"Description": "Loads a scene by name",
+		"Example": "Loadlevel:String (Levelname)"
+	},
+	"Loadlevel2": {
+		"Name": "Loadlevel2",
+		"Description": "Loads a scene by Index",
+		"Example": "Loadlevel2:Int (Value)"
+	},
+	"Loadpose": {
+		"Name": "Loadpose",
+		"Description": "Loads a pose from the PoseMod Pose directory for the object",
+		"Example": "Loadpose:Obj (Obj):String (Posename)"
+	},
+	"Loadprefab": {
+		"Name": "Loadprefab",
+		"Description": "Loads a prefab, specifies position and rotation",
+		"Example": "Loadprefab:String (Obj):Vector3 (Pos):Vector3 (Rot)"
+	},
+	"Loadscene": {
+		"Name": "Loadscene",
+		"Description": "Loads a scene by name",
+		"Example": "Loadscene:String (Levelname)"
+	},
+	"Loadscene2": {
+		"Name": "Loadscene2",
+		"Description": "Loads a scene by Index",
+		"Example": "Loadscene2:Int (Value)"
+	},
+	"Loadsceneaditive": {
+		"Name": "Loadsceneaditive",
+		"Description": "Load scene while another one is loaded",
+		"Example": "Loadsceneaditive:String (Levelname)"
+	},
+	"Loadsceneaditive2": {
+		"Name": "Loadsceneaditive2",
+		"Description": "Load scene while another one is loaded",
+		"Example": "Loadsceneaditive2:Int (Value)"
+	},
+	"Loadsceneaditivefrombundle": {
+		"Name": "Loadsceneaditivefrombundle",
+		"Description": "Load scene from bundle while another one is loaded",
+		"Example": "Loadsceneaditivefrombundle:String (Bundlename):String (Levelname)"
+	},
+	"Loadscenefrombundle": {
+		"Name": "Loadscenefrombundle",
+		"Description": "Load scene from bundle",
+		"Example": "Loadscenefrombundle:String (Bundlename)"
+	},
+	"Lockdoorat": {
+		"Name": "Lockdoorat",
+		"Description": "Locks a door at the specified location",
+		"Example": "Lockdoorat:Vector3 (Location)"
+	},
+	"Log": {
+		"Name": "Log",
+		"Description": "Logs A Message In The Console",
+		"Example": "Log:String Text"
+	},
+	"Lookat": {
+		"Name": "Lookat",
+		"Description": "Object looks up to second object's position",
+		"Example": "Lookat:String (Idname):Obj (Obj1):Obj (Obj2)"
+	},
+	"Maxyanstats": {
+		"Name": "Maxyanstats",
+		"Description": "Maxes out all Ayano's statistics",
+		"Example": "Maxyanstats"
+	},
+	"Mergetex": {
+		"Name": "Mergetex",
+		"Description": "Merges two texture (OpenTexture and OpenTexture2)",
+		"Example": "Mergetex"
+	},
+	"Meshcolor": {
+		"Name": "Meshcolor",
+		"Description": "Changes the color of the mesh",
+		"Example": "Meshcolor:Obj (Obj):Color (Color)"
+	},
+	"Meshcolor2": {
+		"Name": "Meshcolor2",
+		"Description": "Changes the chosen material's color of the mesh",
+		"Example": "Meshcolor2:Obj (Obj):Color (Color):Int (Material)"
+	},
+	"Modelattacher": {
+		"Name": "Modelattacher",
+		"Description": "Attach model to target",
+		"Example": "Modelattacher:Obj (Obj):Obj (Target)"
+	},
+	"Modifyskills": {
+		"Name": "Modifyskills",
+		"Description": "Changes Ayano's skills (Subjects)",
+		"Example": "Modifyskills:String (Subject):Int (Value)"
+	},
+	"Msg": {
+		"Name": "Msg",
+		"Description": "Adds A Message",
+		"Example": "Msg:String Text"
+	},
+	"Musicvolume": {
+		"Name": "Musicvolume",
+		"Description": "Change the volume of the music",
+		"Example": "Musicvolume:Float (Value)"
+	},
+	"Newasset": {
+		"Name": "Newasset",
+		"Description": "Creates an object with the loaded asset",
+		"Example": "Newasset:String (Assetname)"
+	},
+	"Newasset2": {
+		"Name": "Newasset2",
+		"Description": "Creates an object with the loaded asset with specified position and rotation",
+		"Example": "Newasset2:String (Assetname):Vector3 (Pos):Vector3 (Rot)"
+	},
+	"Newempty": {
+		"Name": "Newempty",
+		"Description": "Creates a new empty object.",
+		"Example": "Newempty:String (Name):Vector3 (Position):Vector3 (Rotation)"
+	},
+	"Newgameover": {
+		"Name": "Newgameover",
+		"Description": "Creates a custom gameover and lets you decide to add snap mode or not",
+		"Example": "Newgameover:String (Letterrrrrr):Bool (Snap)"
+	},
+	"Newprompt": {
+		"Name": "Newprompt",
+		"Description": "Creates a new prompt with its own name able to start a cutscene, you can also choose if the prompt will destroy after being used",
+		"Example": "Newprompt:Obj (Obj):String (Textname):String (Cutscene):Bool (Once)"
+	},
+	"Newprompt2": {
+		"Name": "Newprompt2",
+		"Description": "Creates a new prompt with its own letter and name able to start a cutscene, you can also choose if the prompt will destroy after being used",
+		"Example": "Newprompt2:Obj (Obj):String (Letter):String (Textname):String (Cutscene):Bool (Once)"
+	},
+	"Nightsky": {
+		"Name": "Nightsky",
+		"Description": "Enables the night sky",
+		"Example": "Nightsky"
+	},
+	"Nightsky0": {
+		"Name": "Nightsky0",
+		"Description": "Enables the night sky effect",
+		"Example": "Nightsky0"
+	},
+	"Noclip": {
+		"Name": "Noclip",
+		"Description": "Enables PoseMod's NoClip",
+		"Example": "Noclip"
+	},
+	"Normalsky": {
+		"Name": "Normalsky",
+		"Description": "Makes the skybox return to normal",
+		"Example": "Normalsky"
+	},
+	"Notification": {
+		"Name": "Notification",
+		"Description": "Sends a notification",
+		"Example": "Notification:String (Text)"
+	},
+	"Notification2": {
+		"Name": "Notification2",
+		"Description": "Sends a notification",
+		"Example": "Notification2:String (Text1):String (Text2)"
+	},
+	"Nulltexture": {
+		"Name": "Nulltexture",
+		"Description": "Makes a texture of a specified student material's slot null",
+		"Example": "Nulltexture:Int (Material):Studentscript (Student)"
+	},
+	"Nulltexture2": {
+		"Name": "Nulltexture2",
+		"Description": "Makes a texture of a specified object material's slot null",
+		"Example": "Nulltexture2:Int (Material):Obj (Obj)"
+	},
+	"Objectanimationcrossfade": {
+		"Name": "Objectanimationcrossfade",
+		"Description": "Object's animation crossfades to the written animation",
+		"Example": "Objectanimationcrossfade:Obj (Obj):String (Anim)"
+	},
+	"Objectanimationplay": {
+		"Name": "Objectanimationplay",
+		"Description": "Object plays the animation",
+		"Example": "Objectanimationplay:Obj (Obj):String (Anim)"
+	},
+	"Objectparticles.Enabled": {
+		"Name": "Objectparticles.Enabled",
+		"Description": "Enables/Disables particles",
+		"Example": "Objectparticles.Enabled:Obj (Obj):Bool (Value)"
+	},
+	"Objposition": {
+		"Name": "Objposition",
+		"Description": "Finds an object an a location and places it somewhere else.",
+		"Example": "Objposition:Vector3 (Pos):Vector3 (Newpos):Float (Distance)"
+	},
+	"Onboolchange": {
+		"Name": "Onboolchange",
+		"Description": "Checks if bool changes its value",
+		"Example": "Onboolchange:Obj (Obj):String (Monobehaviour):String (Variable):Bool (Value):String (Onyes):String (Onno)"
+	},
+	"Oneframe": {
+		"Name": "Oneframe",
+		"Description": "While True Every Following Command Runs In A Single Frame, While False It Runs One Command Per Frame.",
+		"Example": "Oneframe:Bool",
+		"Attachmenturl": ""
+	},
+	"Onfloatchange": {
+		"Name": "Onfloatchange",
+		"Description": "Checks if float changes its value",
+		"Example": "Onfloatchange:Obj (Obj):String (Monobehaviour):String (Variable):Float (Value):String (Onyes):String (Onno)"
+	},
+	"Onintchange": {
+		"Name": "Onintchange",
+		"Description": "Checks if int changes its value",
+		"Example": "Onintchange:Obj (Obj):String (Monobehaviour):String (Variable):Int (Value):String (Onyes):String (Onno)"
+	},
+	"Onstringchange": {
+		"Name": "Onstringchange",
+		"Description": "Checks if string changes its value",
+		"Example": "Onstringchange:Obj (Obj):String (Monobehaviour):String (Variable):String (Value):String (Onyes):String (Onno)"
+	},
+	"Opendoorat": {
+		"Name": "Opendoorat",
+		"Description": "Opens a door at the specified location",
+		"Example": "Opendoorat:Vector3 (Location)"
+	},
+	"Openmenu": {
+		"Name": "Openmenu",
+		"Description": "Opens the PoseMod menu",
+		"Example": "Openmenu"
+	},
+	"Opentexture": {
+		"Name": "Opentexture",
+		"Description": "Opens a texture file.",
+		"Example": "Opentexture:String (Name)"
+	},
+	"Opentexture2": {
+		"Name": "Opentexture2",
+		"Description": "Opens a texture file into slot 2.",
+		"Example": "Opentexture2:String (Name)"
+	},
+	"Openwww": {
+		"Name": "Openwww",
+		"Description": "Open website by written URL",
+		"Example": "Openwww:String (Filename)"
+	},
+	"Outlines.Add": {
+		"Name": "Outlines.Add",
+		"Description": "Adds outline to an object",
+		"Example": "Outlines.Add:Obj (Obj)"
+	},
+	"Outlines.Color": {
+		"Name": "Outlines.Color",
+		"Description": "Changes the outline color of an object",
+		"Example": "Outlines.Color:Obj (Obj):Color (Value)"
+	},
+	"Outlines.Enabled": {
+		"Name": "Outlines.Enabled",
+		"Description": "Enables or disables outlines for an object",
+		"Example": "Outlines.Enabled:Obj (Obj):Bool (Value)"
+	},
+	"Pathfinding.Enabled": {
+		"Name": "Pathfinding.Enabled",
+		"Description": "Enables or disables an object's pathfinding functionality",
+		"Example": "Pathfinding.Enabled:Obj (Obj):Bool (Value)"
+	},
+	"Pathfinding.Returntoroutine": {
+		"Name": "Pathfinding.Returntoroutine",
+		"Description": "Makes a student return to follow its pathfinding",
+		"Example": "Pathfinding.Returntoroutine:Studentscript (Student)"
+	},
+	"Pathfinding.Settarget": {
+		"Name": "Pathfinding.Settarget",
+		"Description": "Set student's current pathfinding destination to the written object",
+		"Example": "Pathfinding.Settarget:Studentscript (Student):Vector3 (Pos):Vector3 (Rot)"
+	},
+	"Pathfinding.Settargettospot": {
+		"Name": "Pathfinding.Settargettospot",
+		"Description": "Set student's current pathfinding destination to the written object",
+		"Example": "Pathfinding.Settargettospot:Studentscript (Student):Obj (Obj)"
+	},
+	"Pathfinding.Update": {
+		"Name": "Pathfinding.Update",
+		"Description": "Updates all the pathfindings",
+		"Example": "Pathfinding.Update"
+	},
+	"Physics.Add": {
+		"Name": "Physics.Add",
+		"Description": "Adds physics to object (Damping, Elasticity, Inert and Gravity)",
+		"Example": "Physics.Add:Obj (Obj):Float (Damping):Float (Elasticity):Float (Inert):Vector3 (Gravity)"
+	},
+	"Physics.Add2": {
+		"Name": "Physics.Add2",
+		"Description": "Adds physics to object without specifying paremeters",
+		"Example": "Physics.Add2:Obj (Obj)"
+	},
+	"Physics.Damping": {
+		"Name": "Physics.Damping",
+		"Description": "Changes the damping value of an object",
+		"Example": "Physics.Damping:Obj (Obj):Float (Value)"
+	},
+	"Physics.Elasticity": {
+		"Name": "Physics.Elasticity",
+		"Description": "Changes the elasticity value of an object",
+		"Example": "Physics.Elasticity:Obj (Obj):Float (Value)"
+	},
+	"Physics.Enabled": {
+		"Name": "Physics.Enabled",
+		"Description": "Enables or disables an object's physic",
+		"Example": "Physics.Enabled:Obj (Obj):Bool (Value)"
+	},
+	"Physics.Gravity": {
+		"Name": "Physics.Gravity",
+		"Description": "Changes the gravity value of an object",
+		"Example": "Physics.Gravity:Obj (Obj):Vector3 (Value)"
+	},
+	"Physics.Inert": {
+		"Name": "Physics.Inert",
+		"Description": "Changes the inert value of an object",
+		"Example": "Physics.Inert:Obj (Obj):Float (Value)"
+	},
+	"Placeas": {
+		"Name": "Placeas",
+		"Description": "Brings the first object to the second object's position, and lets you decide wheter to make one replace blue or make them co-exist",
+		"Example": "Placeas:Obj (Obj1):Obj (Obj2):Bool (Disableobj2)"
+	},
+	"Playcustomtrack": {
+		"Name": "Playcustomtrack",
+		"Description": "Plays a custom track (Needs to be in the /PoseMod/ directory)",
+		"Example": "Playcustomtrack:String (Filename)"
+	},
+	"Playerprefdeleteall": {
+		"Name": "Playerprefdeleteall",
+		"Description": "Deletes all existing PlayerPrefs",
+		"Example": "Playerprefdeleteall"
+	},
+	"Playerpreffloat": {
+		"Name": "Playerpreffloat",
+		"Description": "Sets a PlayerPref float",
+		"Example": "Playerpreffloat:String (Name):Float (Value)"
+	},
+	"Playerprefint": {
+		"Name": "Playerprefint",
+		"Description": "Sets a PlayerPref int",
+		"Example": "Playerprefint:String (Name):Int (Value)"
+	},
+	"Playerprefstring": {
+		"Name": "Playerprefstring",
+		"Description": "Sets a PlayerPref string",
+		"Example": "Playerprefstring:String (Name):String (Value)"
+	},
+	"Playoriginaltrack": {
+		"Name": "Playoriginaltrack",
+		"Description": "Plays a music coming from the in-game track list",
+		"Example": "Playoriginaltrack:Int (Index)"
+	},
+	"Playsound": {
+		"Name": "Playsound",
+		"Description": "Plays a sound connected to object",
+		"Example": "Playsound:String (Filename):Obj (Pos)"
+	},
+	"Playsound2": {
+		"Name": "Playsound2",
+		"Description": "Plays a sound connected to the written position",
+		"Example": "Playsound2:String (Filename):Vector3 (Pos)"
+	},
+	"Playsound3": {
+		"Name": "Playsound3",
+		"Description": "Plays a sound connected to object, chooses wether to loop it or not and the volume",
+		"Example": "Playsound3:String (Filename):Bool (Loop):Obj (Obj):Float (Volume)"
+	},
+	"Playsound4": {
+		"Name": "Playsound4",
+		"Description": "Plays a sound connected to object, chooses wether to loop it or not, volume and pitch",
+		"Example": "Playsound4:String (Filename):Bool (Loop):Obj (Obj):Float (Volume):Float (Pitch)"
+	},
+	"Playsound5": {
+		"Name": "Playsound5",
+		"Description": "Plays a sound connected to object, chooses wether to loop it or not, if the audio scales by distance, volume and pitch",
+		"Example": "Playsound5:String (Filename):Obj (Obj):Bool (Scaling):Bool (Loop)"
+	},
+	"Playvideo": {
+		"Name": "Playvideo",
+		"Description": "Plays a video",
+		"Example": "Playvideo:String (Filename)"
+	},
+	"Playvideo2": {
+		"Name": "Playvideo2",
+		"Description": "Plays a video (2)",
+		"Example": "Playvideo2:String (Filename)"
+	},
+	"Playvideountilend": {
+		"Name": "Playvideountilend",
+		"Description": "Plays a video until it ends, then it removes automatically",
+		"Example": "Playvideountilend:String (Filename)"
+	},
+	"Portrait.Create": {
+		"Name": "Portrait.Create",
+		"Description": "Creates a portrait of the specified student",
+		"Example": "Portrait.Create:Studentscript (Student)"
+	},
+	"Private": {
+		"Name": "Private",
+		"Description": "Makes a student able or unable to interact with",
+		"Example": "Private:Studentscript (Student):Bool (Value)"
+	},
+	"Private2": {
+		"Name": "Private2",
+		"Description": "Makes the student able or unable to interact with",
+		"Example": "Private2:Studentscript (Student):Bool (Value)"
+	},
+	"Prompt.Enabled": {
+		"Name": "Prompt.Enabled",
+		"Description": "Enables or disables a prompt",
+		"Example": "Prompt.Enabled:Obj (Obj):Bool (Value)"
+	},
+	"Prompt.Fillamount": {
+		"Name": "Prompt.Fillamount",
+		"Description": "Fills automatically the prompt of [value]",
+		"Example": "Prompt.Fillamount:Obj (Obj):Float (Value)"
+	},
+	"Prompt.Resetfillamount": {
+		"Name": "Prompt.Resetfillamount",
+		"Description": "Resets the filled amount of the prompt",
+		"Example": "Prompt.Resetfillamount:Obj (Obj)"
+	},
+	"Promptlabelcolor": {
+		"Name": "Promptlabelcolor",
+		"Description": "Changes the prompt's color",
+		"Example": "Promptlabelcolor:Obj (Obj):Int (Index):Color (Color)"
+	},
+	"Promptlabeltext": {
+		"Name": "Promptlabeltext",
+		"Description": "Changes the prompt's text",
+		"Example": "Promptlabeltext:Obj (Obj):Int (Index):String (Text)"
+	},
+	"Pushable": {
+		"Name": "Pushable",
+		"Description": "Makes so that a student is pushable or not",
+		"Example": "Pushable:Studentscript (Student):Bool (Value)"
+	},
+	"Quitapplication": {
+		"Name": "Quitapplication",
+		"Description": "Closes the application",
+		"Example": "Quitapplication"
+	},
+	"Raincoatchange": {
+		"Name": "Raincoatchange",
+		"Description": "Starts a cutscene when Ayano equips and unequips the raincoat",
+		"Example": "Raincoatchange:String (Onequip):String (Onunequip)"
+	},
+	"Rainysky": {
+		"Name": "Rainysky",
+		"Description": "Enables the rainy sky effect",
+		"Example": "Rainysky"
+	},
+	"Randstuds": {
+		"Name": "Randstuds",
+		"Description": "Randomizes a student",
+		"Example": "Randstuds:Studentscript (Student)"
+	},
+	"Refaxisposition": {
+		"Name": "Refaxisposition",
+		"Description": "Changes the position of an object axis",
+		"Example": "Refaxisposition:Obj (Obj):String (Axis):Float (Value)"
+	},
+	"Refenableprompt": {
+		"Name": "Refenableprompt",
+		"Description": "Enables object's prompt",
+		"Example": "Refenableprompt:Obj (Obj):Bool (Value)"
+	},
+	"Refexistinganimationcrossfade": {
+		"Name": "Refexistinganimationcrossfade",
+		"Description": "Object crossfades the animation",
+		"Example": "Refexistinganimationcrossfade:Obj (Obj):String (Anim)"
+	},
+	"Refexistinganimationplay": {
+		"Name": "Refexistinganimationplay",
+		"Description": "Object plays the animation",
+		"Example": "Refexistinganimationplay:Obj (Obj):String (Anim)"
+	},
+	"Refexistinganimationstop": {
+		"Name": "Refexistinganimationstop",
+		"Description": "Object stops playing the animation",
+		"Example": "Refexistinganimationstop:Obj (Obj)"
+	},
+	"Refloadpose": {
+		"Name": "Refloadpose",
+		"Description": "Loads a pose from the PoseMod Pose directory for the object",
+		"Example": "Refloadpose:Obj (Obj):String (Posename)"
+	},
+	"Reflocalposition": {
+		"Name": "Reflocalposition",
+		"Description": "Changes the LOCAL position of an object",
+		"Example": "Reflocalposition:Obj (Obj):Vector3 (Value)"
+	},
+	"Reflocalpositionref": {
+		"Name": "Reflocalpositionref",
+		"Description": "Positions the first object to the second object local position",
+		"Example": "Reflocalpositionref:Obj (Obj1):Obj (Obj2)"
+	},
+	"Reflocalrotation": {
+		"Name": "Reflocalrotation",
+		"Description": "Changes the LOCAL rotation of an object",
+		"Example": "Reflocalrotation:Obj (Obj):Vector3 (Value)"
+	},
+	"Reflocalrotation3": {
+		"Name": "Reflocalrotation3",
+		"Description": "Changes the LOCAL rotation of an object",
+		"Example": "Reflocalrotation3:Obj (Obj):Vector3 (Value)"
+	},
+	"Reflocalrotationref": {
+		"Name": "Reflocalrotationref",
+		"Description": "Rotates the first object to the second object local rotation",
+		"Example": "Reflocalrotationref:Obj (Obj1):Obj (Obj2)"
+	},
+	"Reflocalscale": {
+		"Name": "Reflocalscale",
+		"Description": "Scales locally the object",
+		"Example": "Reflocalscale:Obj (Obj):Vector3 (Value)"
+	},
+	"Refmovesomething": {
+		"Name": "Refmovesomething",
+		"Description": "Moves an object in direction of another object",
+		"Example": "Refmovesomething:Obj (Obj1):Obj (Obj2):Float (Time):Float (Speed)"
+	},
+	"Refmovevector3": {
+		"Name": "Refmovevector3",
+		"Description": "Moves an object in a direction",
+		"Example": "Refmovevector3:Obj (Obj):Float (Time):Float (Speed):Vector3 (Location)"
+	},
+	"Refpathfinding": {
+		"Name": "Refpathfinding",
+		"Description": "Updates the student's pathfinding information towards the object",
+		"Example": "Refpathfinding:Studentscript (Student):Obj (Obj)"
+	},
+	"Refpathfindingspeed": {
+		"Name": "Refpathfindingspeed",
+		"Description": "Changes the student's pathfinding speed (Walk/Run as an example)",
+		"Example": "Refpathfindingspeed:Studentscript (Student):Float (Value)"
+	},
+	"Refposition": {
+		"Name": "Refposition",
+		"Description": "Changes the GLOBAL position of an object",
+		"Example": "Refposition:Obj (Obj):Vector3 (Value)"
+	},
+	"Refpositionchildsref": {
+		"Name": "Refpositionchildsref",
+		"Description": "Description to add",
+		"Example": "Refpositionchildsref:Obj (Obj1):Obj (Obj2)"
+	},
+	"Refpositionclose": {
+		"Name": "Refpositionclose",
+		"Description": "Move towards object based on the position distance between both of them",
+		"Example": "Refpositionclose:Obj (Obj):Obj (Otherobj):Float (Distance)"
+	},
+	"Refpositionref": {
+		"Name": "Refpositionref",
+		"Description": "Positions the first object to the second object position",
+		"Example": "Refpositionref:Obj (Obj1):Obj (Obj2)"
+	},
+	"Refprompts": {
+		"Name": "Refprompts",
+		"Description": "Hides or shows the object prompts",
+		"Example": "Refprompts:Obj (Obj):Bool (Value)"
+	},
+	"Refprompts3": {
+		"Name": "Refprompts3",
+		"Description": "Hides or shows the object's chosen prompt",
+		"Example": "Refprompts3:Obj (Obj):Int (Index):Bool (Value)"
+	},
+	"Refrotation": {
+		"Name": "Refrotation",
+		"Description": "Changes the GLOBAL rotation of an object",
+		"Example": "Refrotation:Obj (Obj):Vector3 (Value)"
+	},
+	"Refrotation3": {
+		"Name": "Refrotation3",
+		"Description": "Changes the GLOBAL rotation of an object",
+		"Example": "Refrotation3:Obj (Obj):Vector3 (Value)"
+	},
+	"Refrotationchildsref": {
+		"Name": "Refrotationchildsref",
+		"Description": "Description to add",
+		"Example": "Refrotationchildsref:Obj (Obj1):Obj (Obj2)"
+	},
+	"Refrotationref": {
+		"Name": "Refrotationref",
+		"Description": "Rotates the first object to the second object rotation",
+		"Example": "Refrotationref:Obj (Obj1):Obj (Obj2)"
+	},
+	"Refsavepose": {
+		"Name": "Refsavepose",
+		"Description": "Saves a pose to the PoseMod Pose directory from the object",
+		"Example": "Refsavepose:Obj (Obj):String (Posename)"
+	},
+	"Refscale": {
+		"Name": "Refscale",
+		"Description": "Scales globally the object",
+		"Example": "Refscale:Obj (Obj):Vector3 (Value)"
+	},
+	"Refscalechildsref": {
+		"Name": "Refscalechildsref",
+		"Description": "Description to add",
+		"Example": "Refscalechildsref:Obj (Obj1):Obj (Obj2)"
+	},
+	"Refscaleref": {
+		"Name": "Refscaleref",
+		"Description": "Scales the first object to the second object scale",
+		"Example": "Refscaleref:Obj (Obj1):Obj (Obj2)"
+	},
+	"Refstudentnames": {
+		"Name": "Refstudentnames",
+		"Description": "Changes all students' refnames to just their name (From Student_ID (FN LN) to FN LN)",
+		"Example": "Refstudentnames"
+	},
+	"Refstudentnames2": {
+		"Name": "Refstudentnames2",
+		"Description": "Changes all students' refnames to just their ID (From Student_ID (FN LN) to Student_ID)",
+		"Example": "Refstudentnames2"
+	},
+	"Reftexture": {
+		"Name": "Reftexture",
+		"Description": "Opens a texture file and textures an object",
+		"Example": "Reftexture:Int (Material):String (Filename)"
+	},
+	"Reloadscene": {
+		"Name": "Reloadscene",
+		"Description": "Reloads the scene",
+		"Example": "Reloadscene"
+	},
+	"Removecomponent": {
+		"Name": "Removecomponent",
+		"Description": "Removes a component from Object",
+		"Example": "Removecomponent:Obj (Obj):String (Compoenntname)"
+	},
+	"Removedebugmenu": {
+		"Name": "Removedebugmenu",
+		"Description": "Removes the debug menu",
+		"Example": "Removedebugmenu"
+	},
+	"Removedisplayedimage": {
+		"Name": "Removedisplayedimage",
+		"Description": "Remove displayed image by ID",
+		"Example": "Removedisplayedimage:String (Id)"
+	},
+	"Removeeastereggmenu": {
+		"Name": "Removeeastereggmenu",
+		"Description": "Removes the easter egg menu",
+		"Example": "Removeeastereggmenu"
+	},
+	"Removemoney": {
+		"Name": "Removemoney",
+		"Description": "Removes money from Ayano's current balance",
+		"Example": "Removemoney:Float (Value)"
+	},
+	"Removeonboolchange": {
+		"Name": "Removeonboolchange",
+		"Description": "The game won't keep checking anymore if the bool changes (Usually used after OnBoolChange)",
+		"Example": "Removeonboolchange:Obj (Obj):String (Onyescutscene)"
+	},
+	"Removeonfloatchange": {
+		"Name": "Removeonfloatchange",
+		"Description": "The game won't keep checking anymore if the float changes (Usually used after OnFloatChange)",
+		"Example": "Removeonfloatchange:Obj (Obj):String (Onyescutscene)"
+	},
+	"Removeonintchange": {
+		"Name": "Removeonintchange",
+		"Description": "The game won't keep checking anymore if the int changes (Usually used after OnIntChange)",
+		"Example": "Removeonintchange:Obj (Obj):String (Onyescutscene)"
+	},
+	"Removeonstringchange": {
+		"Name": "Removeonstringchange",
+		"Description": "The game won't keep checking anymore if the string changes (Usually used after OnStringChange)",
+		"Example": "Removeonstringchange:Obj (Obj):String (Onyescutscene)"
+	},
+	"Removerival": {
+		"Name": "Removerival",
+		"Description": "Makes a student not be a rival anymore",
+		"Example": "Removerival:Studentscript (Newrival)"
+	},
+	"Renameanimallstudents": {
+		"Name": "Renameanimallstudents",
+		"Description": "Renames an animation to all students based on the chosen gender",
+		"Example": "Renameanimallstudents:String (Gender):String (Orgname):String (Newname)"
+	},
+	"Renameref": {
+		"Name": "Renameref",
+		"Description": "Renames object to the new name",
+		"Example": "Renameref:Obj (Obj):String (Newname)"
+	},
+	"Renamerefchild": {
+		"Name": "Renamerefchild",
+		"Description": "Renames child object found by the first name to the new name",
+		"Example": "Renamerefchild:Obj (Obj):String (Name):String (Newname)"
+	},
+	"Renamerefchildall": {
+		"Name": "Renamerefchildall",
+		"Description": "Renames all child objects having the first name to the new name",
+		"Example": "Renamerefchildall:Obj (Obj):String (Name):String (Newname)"
+	},
+	"Renderambientlight": {
+		"Name": "Renderambientlight",
+		"Description": "Changes the render's ambient light color",
+		"Example": "Renderambientlight:Color (Color)"
+	},
+	"Renderercolor": {
+		"Name": "Renderercolor",
+		"Description": "Changes the Object's rendered color",
+		"Example": "Renderercolor:Obj (Obj):Color (Color)"
+	},
+	"Renderercolor2": {
+		"Name": "Renderercolor2",
+		"Description": "Changes the Object chosen materials slot's rendered color",
+		"Example": "Renderercolor2:Obj (Obj):Int (Material):Color (Color)"
+	},
+	"Replaceanimallstudents": {
+		"Name": "Replaceanimallstudents",
+		"Description": "Replaces an animation to all students",
+		"Example": "Replaceanimallstudents:String (Gender):String (Organim):String (Newanim)"
+	},
+	"Replaceaudio": {
+		"Name": "Replaceaudio",
+		"Description": "Replaces an audiosource by taking the clip and starting it on the second audiosource",
+		"Example": "Replaceaudio:Obj (Sourceobj):Obj (Targetobj)"
+	},
+	"Replacefile": {
+		"Name": "Replacefile",
+		"Description": "Replaces a file's position with another one",
+		"Example": "Replacefile:String (File1):String (File2)"
+	},
+	"Replacenotification": {
+		"Name": "Replacenotification",
+		"Description": "Replaces a in-game notification",
+		"Example": "Replacenotification:String (Oldtext):String (Newtext)"
+	},
+	"Replaceskybox": {
+		"Name": "Replaceskybox",
+		"Description": "Replaces SkyBox's object",
+		"Example": "Replaceskybox:Obj (Obj)"
+	},
+	"Replacesubtitle": {
+		"Name": "Replacesubtitle",
+		"Description": "Replaces a subtitle",
+		"Example": "Replacesubtitle:String (Oldtext):String (Newtext)"
+	},
+	"Reputationpenalty": {
+		"Name": "Reputationpenalty",
+		"Description": "Changes how much reputation a student affects on if they see you",
+		"Example": "Reputationpenalty:Studentscript (Student):Float (Value)"
+	},
+	"Restartday": {
+		"Name": "Restartday",
+		"Description": "Restarts the day",
+		"Example": "Restartday"
+	},
+	"Riggedaccessoryattacher": {
+		"Name": "Riggedaccessoryattacher",
+		"Description": "Attaches a rigged object (Rig/Mesh) to the first object",
+		"Example": "Riggedaccessoryattacher:Obj (Obj):Obj (Accessory):Obj (Accessorymaterials)"
+	},
+	"Riggedaccessoryattacher2": {
+		"Name": "Riggedaccessoryattacher2",
+		"Description": "Attaches a rigged object (Rig/Mesh) to the first object",
+		"Example": "Riggedaccessoryattacher2:Obj (Obj):Obj (Accessory):Obj (Accessorymaterials):String (Newname)"
+	},
+	"Riggedattachallstudents": {
+		"Name": "Riggedattachallstudents",
+		"Description": "Does EmptyStudentMesh and RiggedAccessoryAttacher to all students of the choosen gender",
+		"Example": "Riggedattachallstudents:String (Gender):Obj (Accessory):Obj (Accessorymaterials)"
+	},
+	"Righteyecolor": {
+		"Name": "Righteyecolor",
+		"Description": "Changes the right eye student's color",
+		"Example": "Righteyecolor:Studentscript (Student):Color (Color)"
+	},
+	"Rivaleventsabotaged": {
+		"Name": "Rivaleventsabotaged",
+		"Description": "Changes wether or not the rival events were sabotaged",
+		"Example": "Rivaleventsabotaged:Bool (Value)"
+	},
+	"Rotatetowards": {
+		"Name": "Rotatetowards",
+		"Description": "First object rotates forward the other object",
+		"Example": "Rotatetowards:Obj (Obj1):Obj (Obj2)"
+	},
+	"Rotatetowards2": {
+		"Name": "Rotatetowards2",
+		"Description": "First object rotates forward the other object in time multiplied by speed",
+		"Example": "Rotatetowards2:Obj (Obj):Obj (Obj2):Float (Speed)"
+	},
+	"Sanity": {
+		"Name": "Sanity",
+		"Description": "Changes Ayano's sanity",
+		"Example": "Sanity:Float (Value)"
+	},
+	"Sanitybasedkills": {
+		"Name": "Sanitybasedkills",
+		"Description": "Changes/Stops from changing Ayano's animations on sanity change",
+		"Example": "Sanitybasedkills:Bool (Value)"
+	},
+	"Savechilds": {
+		"Name": "Savechilds",
+		"Description": "Writes a file (Named after the gameobject) with it's child objects' names",
+		"Example": "Savechilds:String (Filename):Obj (Obj)"
+	},
+	"Saveparents": {
+		"Name": "Saveparents",
+		"Description": "Writes a file (Named after the gameobject) with it's child parent's name",
+		"Example": "Saveparents:String (Filename):Obj (Obj)"
+	},
+	"Savepose": {
+		"Name": "Savepose",
+		"Description": "Saves a pose to the PoseMod Pose directory from the object",
+		"Example": "Savepose:Obj (Obj)"
+	},
+	"Screenshot": {
+		"Name": "Screenshot",
+		"Description": "Creates a screenshot",
+		"Example": "Screenshot"
+	},
+	"Setaccessory": {
+		"Name": "Setaccessory",
+		"Description": "Enables or disables an accessory for a student",
+		"Example": "Setaccessory:Studentscript (Student):Int (Accessory):Bool (Active)"
+	},
+	"Setclothing": {
+		"Name": "Setclothing",
+		"Description": "Sets an in-game cloth to a student",
+		"Example": "Setclothing:Studentscript (Student):Int (Value)"
+	},
+	"Setclubaccesoryactive": {
+		"Name": "Setclubaccesoryactive",
+		"Description": "Enables or disables the student's club accessories",
+		"Example": "Setclubaccesoryactive:Studentscript (Student):Bool (Value)"
+	},
+	"Seteditobj": {
+		"Name": "Seteditobj",
+		"Description": "Sets an object as the EditObject of the current cutscene. (Same of SetEditObject)",
+		"Example": "Seteditobj:Obj (Obj)"
+	},
+	"Seteditobject": {
+		"Name": "Seteditobject",
+		"Description": "Sets an object as the EditObject of the current cutscene.",
+		"Example": "Seteditobject:Obj (Obj)"
+	},
+	"Seteditobjecttoclassseat": {
+		"Name": "Seteditobjecttoclassseat",
+		"Description": "Sets as edited object who or what's in Ayano's seat position",
+		"Example": "Seteditobjecttoclassseat"
+	},
+	"Seteditobjecttoeditcharacter": {
+		"Name": "Seteditobjecttoeditcharacter",
+		"Description": "Sets the edited student as edited object",
+		"Example": "Seteditobjecttoeditcharacter"
+	},
+	"Setfemaleuniform": {
+		"Name": "Setfemaleuniform",
+		"Description": "Changes all the uniforms of female students (May require to reload the day)",
+		"Example": "Setfemaleuniform:Int (Value)"
+	},
+	"Setgameover": {
+		"Name": "Setgameover",
+		"Description": "Gives an instant gameover",
+		"Example": "Setgameover"
+	},
+	"Sethairstyleactive": {
+		"Name": "Sethairstyleactive",
+		"Description": "Enables or disables the student's hairstyle",
+		"Example": "Sethairstyleactive:Studentscript (Student):Bool (Value)"
+	},
+	"Sethour": {
+		"Name": "Sethour",
+		"Description": "Changes the in-game hourary and minute count",
+		"Example": "Sethour:Float (Hour):Float (Minute)"
+	},
+	"Setimagesize": {
+		"Name": "Setimagesize",
+		"Description": "Changes the image size",
+		"Example": "Setimagesize:Float (X):Float (Y):Float (Width):Float (Height)"
+	},
+	"Setintsettings": {
+		"Name": "Setintsettings",
+		"Description": "Changes the detail settings",
+		"Example": "Setintsettings:String (Detailssettings):Int (Value)"
+	},
+	"Setlayer": {
+		"Name": "Setlayer",
+		"Description": "Changes render layer an object.",
+		"Example": "Setlayer:Obj (Obj):Int (Number)"
+	},
+	"Setlayer2": {
+		"Name": "Setlayer2",
+		"Description": "Changes render layer an object.",
+		"Example": "Setlayer2:Obj (Obj):String (Value)"
+	},
+	"Setmaleuniform": {
+		"Name": "Setmaleuniform",
+		"Description": "Changes all the uniforms of male students (May require to reload the day)",
+		"Example": "Setmaleuniform:Int (Value)"
+	},
+	"Setmoney": {
+		"Name": "Setmoney",
+		"Description": "Sets Ayano's money",
+		"Example": "Setmoney:Float (Value)"
+	},
+	"Setnewsuitors": {
+		"Name": "Setnewsuitors",
+		"Description": "Changes the rival's suitor (OldSuitorID, NewSuitorID)",
+		"Example": "Setnewsuitors:Int (Suitor1):Int (Suitor2)"
+	},
+	"Setresolution": {
+		"Name": "Setresolution",
+		"Description": "Change the resolution, width and height",
+		"Example": "Setresolution:Int (Wid):Int (Hei)"
+	},
+	"Setrival": {
+		"Name": "Setrival",
+		"Description": "Sets a new rival and makes so that the first rival isn't a rival anymore",
+		"Example": "Setrival:Studentscript (Newrival):Bool (Active)"
+	},
+	"Setstudanimpersona": {
+		"Name": "Setstudanimpersona",
+		"Description": "Changes the student's animations to the ones coming from the mirror",
+		"Example": "Setstudanimpersona:Studentscript (Student):Int (Persona)"
+	},
+	"Setstudentbodytexture": {
+		"Name": "Setstudentbodytexture",
+		"Description": "Changes the student's body texture",
+		"Example": "Setstudentbodytexture:Studentscript (Student):String (Filename)"
+	},
+	"Setstudentclass": {
+		"Name": "Setstudentclass",
+		"Description": "Sets a class for a student",
+		"Example": "Setstudentclass:Int (Index):Int (Value)"
+	},
+	"Setstudentfacetexture": {
+		"Name": "Setstudentfacetexture",
+		"Description": "Changes the student's face texture",
+		"Example": "Setstudentfacetexture:Studentscript (Student):String (Filename)"
+	},
+	"Setstudentgyaruswinsuittexture": {
+		"Name": "Setstudentgyaruswinsuittexture",
+		"Description": "Sets a gyaru student's swimsuit texture",
+		"Example": "Setstudentgyaruswinsuittexture:Studentscript (Student):String (Filename)"
+	},
+	"Setstudentgymtexture": {
+		"Name": "Setstudentgymtexture",
+		"Description": "Sets a student's gym uniform texture",
+		"Example": "Setstudentgymtexture:Studentscript (Student):String (Filename)"
+	},
+	"Setstudentname": {
+		"Name": "Setstudentname",
+		"Description": "Sets a name for a student",
+		"Example": "Setstudentname:Int (Index):String (Value)"
+	},
+	"Setstudentreputation": {
+		"Name": "Setstudentreputation",
+		"Description": "Sets a student reputation",
+		"Example": "Setstudentreputation:Studentscript (Student):Float (Value)"
+	},
+	"Setstudentseat": {
+		"Name": "Setstudentseat",
+		"Description": "Sets a seat for a student",
+		"Example": "Setstudentseat:Int (Index):Int (Value)"
+	},
+	"Setstudentslave": {
+		"Name": "Setstudentslave",
+		"Description": "Makes a student slave",
+		"Example": "Setstudentslave:Int (Student)"
+	},
+	"Setstudentstockingstexture": {
+		"Name": "Setstudentstockingstexture",
+		"Description": "Changes the student's stocking texture",
+		"Example": "Setstudentstockingstexture:Studentscript (Student):String (Filename)"
+	},
+	"Setstudentstrength": {
+		"Name": "Setstudentstrength",
+		"Description": "Sets the strength of the student",
+		"Example": "Setstudentstrength:Int (Index):Int (Value)"
+	},
+	"Setstudentswimsuittexture": {
+		"Name": "Setstudentswimsuittexture",
+		"Description": "Sets a student's swimsuit texture",
+		"Example": "Setstudentswimsuittexture:Studentscript (Student):String (Filename)"
+	},
+	"Setstudenttoweltexture": {
+		"Name": "Setstudenttoweltexture",
+		"Description": "Sets a student's towel texture",
+		"Example": "Setstudenttoweltexture:Studentscript (Student):String (Filename)"
+	},
+	"Settextureoffset": {
+		"Name": "Settextureoffset",
+		"Description": "Changes offset of texture (UV Reads X,Y coordinates)",
+		"Example": "Settextureoffset:Obj (Obj):String (Texturename):Vector2 (Pos)"
+	},
+	"Settime": {
+		"Name": "Settime",
+		"Description": "Sets the current game time",
+		"Example": "Settime:Float (Value)"
+	},
+	"Setuitexture": {
+		"Name": "Setuitexture",
+		"Description": "Sets a texture for a UI object",
+		"Example": "Setuitexture:Obj (Obj):String (Filename)"
+	},
+	"Setuniform": {
+		"Name": "Setuniform",
+		"Description": "Changes a Student's uniform",
+		"Example": "Setuniform:Studentscript (Student):Int (Value)"
+	},
+	"Setyangymtexture": {
+		"Name": "Setyangymtexture",
+		"Description": "Sets Ayano's gym uniform texture",
+		"Example": "Setyangymtexture:String (Filename)"
+	},
+	"Setyanpersona": {
+		"Name": "Setyanpersona",
+		"Description": "Changes Ayano's persona",
+		"Example": "Setyanpersona:String (Persona)"
+	},
+	"Setyanswimsuittexture": {
+		"Name": "Setyanswimsuittexture",
+		"Description": "Sets Ayano's swimsuit texture",
+		"Example": "Setyanswimsuittexture:String (Filename)"
+	},
+	"Shape": {
+		"Name": "Shape",
+		"Description": "Changes Shape/BlendShape/KeyShape of the object",
+		"Example": "Shape:Obj (Obj):String (Shape):Float (Value)"
+	},
+	"Shape2": {
+		"Name": "Shape2",
+		"Description": "Changes Ayano's or a student's shape",
+		"Example": "Shape2:String (Person):String (Index):Float (Value)"
+	},
+	"Shouldercam": {
+		"Name": "Shouldercam",
+		"Description": "Enables/Disables the shoulder camera view",
+		"Example": "Shouldercam:Bool (Value)"
+	},
+	"Showpromptbar": {
+		"Name": "Showpromptbar",
+		"Description": "Shows the promptbar used for cutscenes, the cutscene will be played when the PromptBar will be closed and the actionST is what will be displayed in the promptbar text",
+		"Example": "Showpromptbar:String (Cutscene):String (Actionst)",
+    "AttachmentURL": "https://cdn.discordapp.com/attachments/439017534709170187/963948344642793513/unknown.png"
+	},
+	"Showwarnings": {
+		"Name": "Showwarnings",
+		"Description": "Enables Or Disables Onscreen Red Text Message",
+		"Example": "Showwarnings:Bool"
+	},
+	"Shy": {
+		"Name": "Shy",
+		"Description": "Makes the student shy",
+		"Example": "Shy:Studentscript (Student)"
+	},
+	"Skinmeshchange": {
+		"Name": "Skinmeshchange",
+		"Description": "Changes the skinned mesh of an object",
+		"Example": "Skinmeshchange"
+	},
+	"Skinmeshchange2": {
+		"Name": "Skinmeshchange2",
+		"Description": "Changes the skinned mesh of a child's object",
+		"Example": "Skinmeshchange2:Obj (Obj)"
+	},
+	"Skinnedmeshcolor": {
+		"Name": "Skinnedmeshcolor",
+		"Description": "Changes the color of the skinned mesh",
+		"Example": "Skinnedmeshcolor:Obj (Obj):Color (Color)"
+	},
+	"Skinnedmeshcolor2": {
+		"Name": "Skinnedmeshcolor2",
+		"Description": "Changes the chosen material's color of the skinned esh",
+		"Example": "Skinnedmeshcolor2:Obj (Obj):Color (Color):Int (Material)"
+	},
+	"Smoothposition": {
+		"Name": "Smoothposition",
+		"Description": "Changes the object's position smoothly to the vector by multiplying the speed to the time",
+		"Example": "Smoothposition:Obj (Obj):Vector3 (Pos):Float (Speed)"
+	},
+	"Smoothrotation3": {
+		"Name": "Smoothrotation3",
+		"Description": "Rotates smoothly an object to the vector by multiplying the speed to the time",
+		"Example": "Smoothrotation3:Obj (Obj):Vector3 (Rot):Float (Speed)"
+	},
+	"Smoothscale": {
+		"Name": "Smoothscale",
+		"Description": "Object smoothly scales to Vector3 scale in time multiplied by speed",
+		"Example": "Smoothscale:Obj (Obj):Vector3 (Scale):Float (Speed)"
+	},
+	"Smoothshape": {
+		"Name": "Smoothshape",
+		"Description": "Changes the shape of an object in time",
+		"Example": "Smoothshape:Obj (Obj):String (Shapename):Float (Speed)"
+	},
+	"Spawnbathcloud": {
+		"Name": "Spawnbathcloud",
+		"Description": "Spawns a bath cloud (Used in older builds to cover Ayano when showering)",
+		"Example": "Spawnbathcloud:Vector3 (Pos):Vector3 (Rot)"
+	},
+	"Spawnspecial": {
+		"Name": "Spawnspecial",
+		"Description": "Spawns a special in-game character/student/object [Currently unused]",
+		"Example": "Spawnspecial:String (Name)"
+	},
+	"Spawnstudent": {
+		"Name": "Spawnstudent",
+		"Description": "SpawnStudent with its ID an name",
+		"Example": "Spawnstudent:Int (Index):String (Name)"
+	},
+	"Spriterencolor": {
+		"Name": "Spriterencolor",
+		"Description": "Changes object's sprite color",
+		"Example": "Spriterencolor:Obj (Obj):Color (Value)"
+	},
+	"Spriterentex": {
+		"Name": "Spriterentex",
+		"Description": "Changes the object sprite to the opened texture",
+		"Example": "Spriterentex:Obj (Obj)"
+	},
+	"Spriterentexexport": {
+		"Name": "Spriterentexexport",
+		"Description": "Exports the sprite texture of the object",
+		"Example": "Spriterentexexport:Obj (Obj)"
+	},
+	"Startcutscene": {
+		"Name": "Startcutscene",
+		"Description": "Starts a cutscene by name, then chooses wether to keep it or not",
+		"Example": "Startcutscene:String (Filename):Bool (Keep)"
+	},
+	"Stopeavesdropping": {
+		"Name": "Stopeavesdropping",
+		"Description": "Stops the eavesdropping",
+		"Example": "Stopeavesdropping:String (Name)"
+	},
+	"Stopspying": {
+		"Name": "Stopspying",
+		"Description": "Makes Ayano automatically stop spying from a spot",
+		"Example": "Stopspying:Obj (Obj)"
+	},
+	"Stopstudentfollow": {
+		"Name": "Stopstudentfollow",
+		"Description": "Makes a student stop following another student",
+		"Example": "Stopstudentfollow:Studentscript (Student)"
+	},
+	"Stopvideo": {
+		"Name": "Stopvideo",
+		"Description": "Stops a video",
+		"Example": "Stopvideo"
+	},
+	"Studbreastsize": {
+		"Name": "Studbreastsize",
+		"Description": "Changes the student's breast size",
+		"Example": "Studbreastsize:Studentscript (Student):Float (Value)"
+	},
+	"Studemptytorso": {
+		"Name": "Studemptytorso",
+		"Description": "Hides a student's torso",
+		"Example": "Studemptytorso:Studentscript (Student)"
+	},
+	"Studentanimation.Layer": {
+		"Name": "Studentanimation.Layer",
+		"Description": "Moves the animation layer of a student",
+		"Example": "Studentanimation.Layer:Studentscript (Student):String (Anim):Int (Value)"
+	},
+	"Studentanimation.Weight": {
+		"Name": "Studentanimation.Weight",
+		"Description": "Changes the weight of a student animation",
+		"Example": "Studentanimation.Weight:Studentscript (Student):String (Anim):Int (Value)"
+	},
+	"Studentblush": {
+		"Name": "Studentblush",
+		"Description": "Changes the student's blush",
+		"Example": "Studentblush:Studentscript (Student):Float (Value)"
+	},
+	"Studentfollow": {
+		"Name": "Studentfollow",
+		"Description": "Makes a student start following another student at the written distance",
+		"Example": "Studentfollow:Studentscript (Student):Studentscript (Student2):Float (Distance)"
+	},
+	"Studentidtoeditobj": {
+		"Name": "Studentidtoeditobj",
+		"Description": "Finds student by ID, then makes it the edited object",
+		"Example": "Studentidtoeditobj:Int (Value)"
+	},
+	"Studentsetfollowtarget": {
+		"Name": "Studentsetfollowtarget",
+		"Description": "The student will follow the other student",
+		"Example": "Studentsetfollowtarget:Studentscript (Student):Studentscript (Value)"
+	},
+	"Studnails": {
+		"Name": "Studnails",
+		"Description": "Enables or removes the student nails",
+		"Example": "Studnails:Studentscript (Student):Bool (Value)"
+	},
+	"Studonwear": {
+		"Name": "Studonwear",
+		"Description": "Starts a cutscene when a student wears or removes a schoolwear",
+		"Example": "Studonwear:Studentscript (Student):Int (Wear):String (Onequip):String (Onunequip)"
+	},
+	"Studonweargym": {
+		"Name": "Studonweargym",
+		"Description": "Starts a cutscene when a student wears or removes the gym uniform",
+		"Example": "Studonweargym:Studentscript (Student):String (Onequip):String (Onunequip)"
+	},
+	"Studonwearlab": {
+		"Name": "Studonwearlab",
+		"Description": "Starts a cutscene when a student wears or removes the labcoat",
+		"Example": "Studonwearlab:Studentscript (Student):String (Onequip):String (Onunequip)"
+	},
+	"Studonwearmartial": {
+		"Name": "Studonwearmartial",
+		"Description": "Starts a cutscene when a student wears or removes the martial arts uniform",
+		"Example": "Studonwearmartial:Studentscript (Student):String (Onequip):String (Onunequip)"
+	},
+	"Studonwearpainter": {
+		"Name": "Studonwearpainter",
+		"Description": "Starts a cutscene when a student wears or removes the uniform of the paint club",
+		"Example": "Studonwearpainter:Studentscript (Student):String (Onequip):String (Onunequip)"
+	},
+	"Studonwearswimsuit": {
+		"Name": "Studonwearswimsuit",
+		"Description": "Starts a cutscene when a student wears or removes the swimsuit",
+		"Example": "Studonwearswimsuit:Studentscript (Student):String (Onequip):String (Onunequip)"
+	},
+	"Studonweartowel": {
+		"Name": "Studonweartowel",
+		"Description": "Starts a cutscene when a student wears or removes the towel",
+		"Example": "Studonweartowel:Studentscript (Student):String (Onequip):String (Onunequip)"
+	},
+	"Studonwearuniform": {
+		"Name": "Studonwearuniform",
+		"Description": "Starts a cutscene when a student wears or removes the uniform",
+		"Example": "Studonwearuniform:Studentscript (Student):String (Onequip):String (Onunequip)"
+	},
+	"Studstex": {
+		"Name": "Studstex",
+		"Description": "Re-sets a student's uniform texture, different between indoor and outdoor",
+		"Example": "Studstex:Int (Material):Bool (Male):Bool (Teacher)"
+	},
+	"Studtex2": {
+		"Name": "Studtex2",
+		"Description": "Re-sets a student's uniform texture, different between indoor and outdoor, then it reapplies the uniform",
+		"Example": "Studtex2:Studentscript (Student)"
+	},
+	"Studtex3": {
+		"Name": "Studtex3",
+		"Description": "Re-sets a student's uniform texture, different between indoor and outdoor, then it reapplies the uniform",
+		"Example": "Studtex3:Studentscript (Student)"
+	},
+	"Subtextures": {
+		"Name": "Subtextures",
+		"Description": "Texture the child object's selected material slot with the specified texture (OpenTexture)",
+		"Example": "Subtextures:Obj (Obj):Int (Material)"
+	},
+	"Subtextures2": {
+		"Name": "Subtextures2",
+		"Description": "Texture the child object's selected material slot with the specified texture (OpenTexture)",
+		"Example": "Subtextures2:Obj (Obj):Int (Material)"
+	},
+	"Subtitle.New": {
+		"Name": "Subtitle.New",
+		"Description": "Creates subtitle that ends at time and that is connected to object",
+		"Example": "Subtitle.New:String (Thetext):Float (Thetime):Obj (Sourceobj):Float (Distance):Color (Thecolor)"
+	},
+	"Subtitle.Newclean": {
+		"Name": "Subtitle.Newclean",
+		"Description": "Clears all subtitles",
+		"Example": "Subtitle.Newclean"
+	},
+	"Subtitle.Newfromsound": {
+		"Name": "Subtitle.Newfromsound",
+		"Description": "Creates subtitle that ends at audio ending and that is connected to object",
+		"Example": "Subtitle.Newfromsound:String (Thetext):String (Theaudio):Obj (Sourceobj):Float (Distance):Color (Thecolor)"
+	},
+	"Subtitle2clean": {
+		"Name": "Subtitle2clean",
+		"Description": "Clears all subtitles (2)",
+		"Example": "Subtitle2clean"
+	},
+	"Subtitle2color": {
+		"Name": "Subtitle2color",
+		"Description": "Changes the subtitles color (2)",
+		"Example": "Subtitle2color:Color (Color)"
+	},
+	"Subtitle2position": {
+		"Name": "Subtitle2position",
+		"Description": "Changes the subtitles position (2)",
+		"Example": "Subtitle2position:Vector3 (Value)"
+	},
+	"Subtitle2size": {
+		"Name": "Subtitle2size",
+		"Description": "Changes the subtitles size (2)",
+		"Example": "Subtitle2size:Vector3 (Value)"
+	},
+	"Subtitle2text": {
+		"Name": "Subtitle2text",
+		"Description": "Creates a new subtitle (2)",
+		"Example": "Subtitle2text:String (Text)"
+	},
+	"Subtitleclean": {
+		"Name": "Subtitleclean",
+		"Description": "Clears all subtitles",
+		"Example": "Subtitleclean"
+	},
+	"Subtitlecolor": {
+		"Name": "Subtitlecolor",
+		"Description": "Changes the subtitles color",
+		"Example": "Subtitlecolor:Color (Color)"
+	},
+	"Subtitleposition": {
+		"Name": "Subtitleposition",
+		"Description": "Changes the subtitles positions",
+		"Example": "Subtitleposition:Vector3 (Value)"
+	},
+	"Subtitlesize": {
+		"Name": "Subtitlesize",
+		"Description": "Changes the subtitles size",
+		"Example": "Subtitlesize:Vector3 (Value)"
+	},
+	"Subtitletext": {
+		"Name": "Subtitletext",
+		"Description": "Creates a new subtitle",
+		"Example": "Subtitletext:String (Text)"
+	},
+	"Sun.Color": {
+		"Name": "Sun.Color",
+		"Description": "Changes the Sun's color",
+		"Example": "Sun.Color:Color (Value)"
+	},
+	"Talk": {
+		"Name": "Talk",
+		"Description": "Makes a student talk with another student by defining position and rotation of both (This command needs to be written foreach student)",
+		"Example": "Talk:Studentscript (Student):Int (Index):Vector3 (Pos):Vector3 (Rot)"
+	},
+	"Teacher": {
+		"Name": "Teacher",
+		"Description": "Makes the student become a teacher and vice-versa",
+		"Example": "Teacher:Studentscript (Student):Bool (Value)"
+	},
+	"Testcmd": {
+		"Name": "Testcmd",
+		"Description": "Changes Ayano's position to 5,5,5",
+		"Example": "Testcmd"
+	},
+	"Texture": {
+		"Name": "Texture",
+		"Description": "Texture an object to the selected material slot with the specified texture (OpenTexture)",
+		"Example": "Texture:Int (Material):Obj (Obj)"
+	},
+	"Texture1": {
+		"Name": "Texture1",
+		"Description": "Texture an object to the selected material slot with the specified texture (OpenTexture)",
+		"Example": "Texture1:Int (Material):Obj (Obj)"
+	},
+	"Texture2": {
+		"Name": "Texture2",
+		"Description": "Texture an object to the selected material slot with the specified texture (OpenTexture)",
+		"Example": "Texture2:Int (Material):Obj (Obj)"
+	},
+	"Texture3": {
+		"Name": "Texture3",
+		"Description": "Texture an object to the selected material slot with the specified texture (OpenTexture)",
+		"Example": "Texture3:Int (Material):Obj (Obj)"
+	},
+	"Timeforcamerapose": {
+		"Name": "Timeforcamerapose",
+		"Description": "Changes the student's time patience for photos",
+		"Example": "Timeforcamerapose:Studentscript (Student):Float (Value)"
+	},
+	"Timepaused": {
+		"Name": "Timepaused",
+		"Description": "Pauses/Resumes the game's time",
+		"Example": "Timepaused:Bool (Value)"
+	},
+	"Timescale": {
+		"Name": "Timescale",
+		"Description": "Changes time scale",
+		"Example": "Timescale:Float (Value)"
+	},
+	"Timetext": {
+		"Name": "Timetext",
+		"Description": "Changes the displayed time",
+		"Example": "Timetext:String (Value)"
+	},
+	"Toggleallparticlesystems": {
+		"Name": "Toggleallparticlesystems",
+		"Description": "Enables/Disables all particles",
+		"Example": "Toggleallparticlesystems:Bool (Value)"
+	},
+	"Toggleallphysics": {
+		"Name": "Toggleallphysics",
+		"Description": "Activates or disables the physic of every object",
+		"Example": "Toggleallphysics:Bool (Value)"
+	},
+	"Toggleallstudents": {
+		"Name": "Toggleallstudents",
+		"Description": "Removes or adds all of the in-game students",
+		"Example": "Toggleallstudents:Bool (Value)"
+	},
+	"Transformhead": {
+		"Name": "Transformhead",
+		"Description": "Gets the Student's transform head",
+		"Example": "Transformhead:Studentscript (Student):Vector3 (Value)"
+	},
+	"Uilabelcolor": {
+		"Name": "Uilabelcolor",
+		"Description": "Changes the color displayed by a UILabel",
+		"Example": "Uilabelcolor:Obj (Obj):Color (Color)"
+	},
+	"Uilabeloutlinecolor": {
+		"Name": "Uilabeloutlinecolor",
+		"Description": "Changes the outline color displayed by a UILabel",
+		"Example": "Uilabeloutlinecolor:Obj (Obj):Color (Color)"
+	},
+	"Uilabeltext": {
+		"Name": "Uilabeltext",
+		"Description": "Changes the text displayed by a UILabel",
+		"Example": "Uilabeltext:Obj (Obj):String (Value)"
+	},
+	"Uispritecolor": {
+		"Name": "Uispritecolor",
+		"Description": "Changes the color of a UISprite",
+		"Example": "Uispritecolor:Obj (Obj):Color (Color)"
+	},
+	"Uitex": {
+		"Name": "Uitex",
+		"Description": "Sets a texture for a UI object (OpenTexture required)",
+		"Example": "Uitex:Obj (Obj)"
+	},
+	"Unattach": {
+		"Name": "Unattach",
+		"Description": "Unparents an object",
+		"Example": "Unattach:Obj (Obj)"
+	},
+	"Updateoffscreen": {
+		"Name": "Updateoffscreen",
+		"Description": "Makes GameObject update offscreen (When you change window)",
+		"Example": "Updateoffscreen:Obj (Obj):Bool (Val)"
+	},
+	"Wait": {
+		"Name": "Wait",
+		"Description": "Waits A Number Of Seconds Before Continuing To The Next Command.",
+		"Example": "Wait:Float Value"
+	},
+	"Waitforwww.Mmm": {
+		"Name": "Waitforwww.Mmm",
+		"Description": "Wait until WWW url is done",
+		"Example": "Waitforwww.Mmm"
+	},
+	"Walk_Yanexistinganimationspeed": {
+		"Name": "Walk_Yanexistinganimationspeed",
+		"Description": "Changes the walk animation speed from Ayano's animations",
+		"Example": "Walk_Yanexistinganimationspeed:Float (Value)"
+	},
+	"Walk_Yanexistinganimationspeed2": {
+		"Name": "Walk_Yanexistinganimationspeed2",
+		"Description": "Changes the walk animation speed to 1.5 from Ayano's animations",
+		"Example": "Walk_Yanexistinganimationspeed2"
+	},
+	"Walk_Yanreplaceanim": {
+		"Name": "Walk_Yanreplaceanim",
+		"Description": "Replaces the walk animation from Ayano's animations",
+		"Example": "Walk_Yanreplaceanim:String (Anim1):String (Anim2)"
+	},
+	"Witnessmurder": {
+		"Name": "Witnessmurder",
+		"Description": "Changes if the student has witnessed or not a murder",
+		"Example": "Witnessmurder:Studentscript (Student):Bool (Value)"
+	},
+	"Worldlight.Brightness": {
+		"Name": "Worldlight.Brightness",
+		"Description": "Changes the worldlight brightness",
+		"Example": "Worldlight.Brightness:Float (Value)"
+	},
+	"Yanadditemcount": {
+		"Name": "Yanadditemcount",
+		"Description": "Adds to the count for keys, Senpai photos and panty shots",
+		"Example": "Yanadditemcount:String (Item):Int (Value)"
+	},
+	"Yanaddnails": {
+		"Name": "Yanaddnails",
+		"Description": "Gives Ayano nails",
+		"Example": "Yanaddnails"
+	},
+	"Yanaddnew": {
+		"Name": "Yanaddnew",
+		"Description": "Gives Ayano all students' animations",
+		"Example": "Yanaddnew"
+	},
+	"Yanaddnew2": {
+		"Name": "Yanaddnew2",
+		"Description": "Gives Ayano all object childrens' animations",
+		"Example": "Yanaddnew2:Obj (Obj)"
+	},
+	"Yanblonde": {
+		"Name": "Yanblonde",
+		"Description": "Makes Ayano blonde or return grey (Requires the restart of the day)",
+		"Example": "Yanblonde:Bool (Active)"
+	},
+	"Yanbloody": {
+		"Name": "Yanbloody",
+		"Description": "Makes Ayano bloody",
+		"Example": "Yanbloody:Float (Value)"
+	},
+	"Yanbreastsize": {
+		"Name": "Yanbreastsize",
+		"Description": "Changes Ayano's breast size",
+		"Example": "Yanbreastsize:Float (Value)"
+	},
+	"Yancanmove": {
+		"Name": "Yancanmove",
+		"Description": "Blocks or lets Ayano move",
+		"Example": "Yancanmove:Bool (Value)"
+	},
+	"Yancasualtex": {
+		"Name": "Yancasualtex",
+		"Description": "Changes Ayano's specified casual material texture (Used with OpenTexture)",
+		"Example": "Yancasualtex:Int (Material)"
+	},
+	"Yancontrol": {
+		"Name": "Yancontrol",
+		"Description": "Makes the Player get control of Ayano back",
+		"Example": "Yancontrol"
+	},
+	"Yancontwol": {
+		"Name": "Yancontwol",
+		"Description": "Makes the Player get control of Ayano back",
+		"Example": "Yancontwol"
+	},
+	"Yancrossfadeexistinganimation": {
+		"Name": "Yancrossfadeexistinganimation",
+		"Description": "Makes Ayano's current animation crossfade to an animation (To display correctly you might need YanCanMove to be set to false)",
+		"Example": "Yancrossfadeexistinganimation:String (Anim)"
+	},
+	"Yancrossfadeexistinganimationuntilend": {
+		"Name": "Yancrossfadeexistinganimationuntilend",
+		"Description": "Makes Ayano's animation crossfade to the written animation until end",
+		"Example": "Yancrossfadeexistinganimationuntilend:String (Anim)"
+	},
+	"Yandereanimation.Layer": {
+		"Name": "Yandereanimation.Layer",
+		"Description": "Changes the layer of an Ayano animation",
+		"Example": "Yandereanimation.Layer:String (Anim):Int (Value)"
+	},
+	"Yanemptyhands": {
+		"Name": "Yanemptyhands",
+		"Description": "Makes Ayano drop everything she has in her hands",
+		"Example": "Yanemptyhands"
+	},
+	"Yanemptytorso": {
+		"Name": "Yanemptytorso",
+		"Description": "Hides Ayano's torso",
+		"Example": "Yanemptytorso"
+	},
+	"Yanexistinganimationspeed": {
+		"Name": "Yanexistinganimationspeed",
+		"Description": "Changes the animation speed of an Ayano animation",
+		"Example": "Yanexistinganimationspeed:String (Anim):Float (Value)"
+	},
+	"Yaneyeshrink": {
+		"Name": "Yaneyeshrink",
+		"Description": "Makes Ayano's eyes shrink by [value]",
+		"Example": "Yaneyeshrink:Float (Value)"
+	},
+	"Yanfacetex": {
+		"Name": "Yanfacetex",
+		"Description": "Changes Ayano's face texture (Used with OpenTexture)",
+		"Example": "Yanfacetex"
+	},
+	"Yanhair": {
+		"Name": "Yanhair",
+		"Description": "Changes Ayano's hairstyle (You can find the numbers used for INT in /StreamingAssets/YanHairs",
+		"Example": "Yanhair:Int (Value)"
+	},
+	"Yanhairtex": {
+		"Name": "Yanhairtex",
+		"Description": "Textures Ayano's specified hair and material slot texture (Used with OpenTexture)",
+		"Example": "Yanhairtex:Int (Hair):Int (Material)"
+	},
+	"Yanlistanims": {
+		"Name": "Yanlistanims",
+		"Description": "Writes a list of all Ayano's animations",
+		"Example": "Yanlistanims"
+	},
+	"Yanonwear": {
+		"Name": "Yanonwear",
+		"Description": "Starts a cutscene when Ayano wears or removes a schoolwear",
+		"Example": "Yanonwear:Int (Wear):String (Onequip):String (Onunequip)"
+	},
+	"Yanonweargym": {
+		"Name": "Yanonweargym",
+		"Description": "Starts a cutscene when Ayano wears or removes the gym uniform",
+		"Example": "Yanonweargym:String (Onequip):String (Onunequip)"
+	},
+	"Yanonwearlab": {
+		"Name": "Yanonwearlab",
+		"Description": "Starts a cutscene when Ayano wears or removes the labcoat",
+		"Example": "Yanonwearlab:String (Onequip):String (Onunequip)"
+	},
+	"Yanonwearmartial": {
+		"Name": "Yanonwearmartial",
+		"Description": "Starts a cutscene when Ayano wears or removes the martial arts uniform",
+		"Example": "Yanonwearmartial:String (Onequip):String (Onunequip)"
+	},
+	"Yanonwearpainter": {
+		"Name": "Yanonwearpainter",
+		"Description": "Starts a cutscene when Ayano wears or removes the uniform of the paint club",
+		"Example": "Yanonwearpainter:String (Onequip):String (Onunequip)"
+	},
+	"Yanonwearswimsuit": {
+		"Name": "Yanonwearswimsuit",
+		"Description": "Starts a cutscene when Ayano wears or removes the swimsuit",
+		"Example": "Yanonwearswimsuit:String (Onequip):String (Onunequip)"
+	},
+	"Yanonweartowel": {
+		"Name": "Yanonweartowel",
+		"Description": "Starts a cutscene when Ayano wears or removes the towel",
+		"Example": "Yanonweartowel:String (Onequip):String (Onunequip)"
+	},
+	"Yanonwearuniform": {
+		"Name": "Yanonwearuniform",
+		"Description": "Starts a cutscene when Ayano wears or removes the uniform",
+		"Example": "Yanonwearuniform:String (Onequip):String (Onunequip)"
+	},
+	"Yanpath": {
+		"Name": "Yanpath",
+		"Description": "Makes Ayano walk somewhere (It requires YanCanMove to be disabled)",
+		"Example": "Yanpath:Vector3 (Destination)"
+	},
+	"Yanpathsu": {
+		"Name": "Yanpathsu",
+		"Description": "Makes Ayano walk somewhere (It requires YanCanMove to be disabled)",
+		"Example": "Yanpathsu:Float (X):Float (Y):Float (Z)"
+	},
+	"Yanplayexistinganimation": {
+		"Name": "Yanplayexistinganimation",
+		"Description": "Makes Ayano play an animation (To display correctly you might need YanCanMove to be set to false)",
+		"Example": "Yanplayexistinganimation:String (Anim)"
+	},
+	"Yanplayexistinganimationuntilend": {
+		"Name": "Yanplayexistinganimationuntilend",
+		"Description": "Makes Ayano play the written animation until end",
+		"Example": "Yanplayexistinganimationuntilend:String (Anim)"
+	},
+	"Yanremoveitemcount": {
+		"Name": "Yanremoveitemcount",
+		"Description": "Removes from the count for keys, Senpai photos and panty shots",
+		"Example": "Yanremoveitemcount:String (Item):Int (Value)"
+	},
+	"Yanrenameanim": {
+		"Name": "Yanrenameanim",
+		"Description": "Renames an animation from Ayano's animations",
+		"Example": "Yanrenameanim:String (Anim1):String (Anim2)"
+	},
+	"Yanreplaceanim": {
+		"Name": "Yanreplaceanim",
+		"Description": "Replaces an animation from Ayano's animations'",
+		"Example": "Yanreplaceanim:String (Anim1):String (Anim2)"
+	},
+	"Yansetanimloop": {
+		"Name": "Yansetanimloop",
+		"Description": "Makes an Ayano animation loop or stop looping",
+		"Example": "Yansetanimloop:String (Anim):Bool (Value)"
+	},
+	"Yansetanimweight": {
+		"Name": "Yansetanimweight",
+		"Description": "Sets a weight to Ayano's animations",
+		"Example": "Yansetanimweight:String (Anim):Float (Value)"
+	},
+	"Yansetclub": {
+		"Name": "Yansetclub",
+		"Description": "Sets a club for Ayano",
+		"Example": "Yansetclub:String (Club)"
+	},
+	"Yansetidleanim": {
+		"Name": "Yansetidleanim",
+		"Description": "Changes Ayano's idle animation",
+		"Example": "Yansetidleanim:String (Value)"
+	},
+	"Yansetitemcount": {
+		"Name": "Yansetitemcount",
+		"Description": "Sets the item count for keys, Senpai photos and panty shots",
+		"Example": "Yansetitemcount:String (Item):Int (Value)"
+	},
+	"Yansetrunanim": {
+		"Name": "Yansetrunanim",
+		"Description": "Changes Ayano's run animation",
+		"Example": "Yansetrunanim:String (Value)"
+	},
+	"Yansetuniform": {
+		"Name": "Yansetuniform",
+		"Description": "Sets to Ayano an in-game uniform",
+		"Example": "Yansetuniform:Int (Value)"
+	},
+	"Yansetwalkanim": {
+		"Name": "Yansetwalkanim",
+		"Description": "Changes Ayano's walk animation",
+		"Example": "Yansetwalkanim:String (Value)"
+	},
+	"Yanstopexistinganimation": {
+		"Name": "Yanstopexistinganimation",
+		"Description": "Makes Ayano stop executing an animation (To display correctly you might need YanCanMove to be set to false)",
+		"Example": "Yanstopexistinganimation"
+	},
+	"Yanuniformtex": {
+		"Name": "Yanuniformtex",
+		"Description": "Changes Ayano's specified uniform texture (Used with OpenTexture)",
+		"Example": "Yanuniformtex:Int (Material)"
+	},
+	"Yanvisible": {
+		"Name": "Yanvisible",
+		"Description": "Enables/Disables Ayano's visibility by removing the eyes, the hairstyle, renderer mesh and all accessories",
+		"Example": "Yanvisible:Bool (Value)"
+	},
+	"Yanvisible2": {
+		"Name": "Yanvisible2",
+		"Description": "Enables/Disables Ayano's visibility by disabling the renderer",
+		"Example": "Yanvisible2:Bool (Value)"
+	},
+	"Yanvisible3": {
+		"Name": "Yanvisible3",
+		"Description": "Enables/Disables Ayano's visibility",
+		"Example": "Yanvisible3:Bool (Value)"
+	}
+}

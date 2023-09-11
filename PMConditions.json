@@ -17,7 +17,7 @@
     "yannearpoint": {
         "Name": "yannearpoint",
         "Description": "Checks if YandereChan is near a point",
-        "Example": "yannearpoint:Float (x), Float (y), Float (z), Float (distance)"
+        "Example": "yannearpoint:Float (x):Float (y):Float (z):Float (distance)"
     },
     "yanneareditobject": {
         "Name": "yanneareditobject",
@@ -27,7 +27,7 @@
     "time": {
         "Name": "time",
         "Description": "Checks if the current time is between 2 values",
-        "Example": "time:Float (minTime), Float (maxTime)"
+        "Example": "time:Float (minTime):Float (maxTime)"
     },
     "dead": {
         "Name": "dead",
@@ -42,12 +42,12 @@
     "studreputationisabove": {
         "Name": "studreputationisabove",
         "Description": "Checks if a student's reputation is above a value",
-        "Example": "studreputationisabove:StudentScript (student), Float (value)"
+        "Example": "studreputationisabove:StudentScript (student):Float (value)"
     },
     "studreputationisunder": {
         "Name": "studreputationisunder",
         "Description": "Checks if a student's reputation is under a value",
-        "Example": "studreputationisunder:StudentScript (student), Float (value)"
+        "Example": "studreputationisunder:StudentScript (student):Float (value)"
     },
     "weapon": {
         "Name": "weapon",
@@ -72,17 +72,17 @@
     "skills": {
         "Name": "skills",
         "Description": "Checks if the grade of a skill is equal to a value",
-        "Example": "skills:String (skill), Int (value)"
+        "Example": "skills:String (skill):Int (value)"
     },
     "skills2": {
         "Name": "skills2",
         "Description": "Checks if the grade of a skill is lower than a value",
-        "Example": "skills2:String (skill), Int (value)"
+        "Example": "skills2:String (skill):Int (value)"
     },
     "skillslarger": {
         "Name": "skillslarger",
         "Description": "Checks if the grade of a skill is larger or equal to a value",
-        "Example": "skillslarger:String (skill), Int (value)"
+        "Example": "skillslarger:String (skill):Int (value)"
     },
     "iswet": {
         "Name": "iswet",
@@ -123,12 +123,12 @@
     "yanhasmoreitems": {
         "Name": "yanhasmoreitems",
         "Description": "Checks if Ayano has more of a specific item than a value",
-        "Example": "yanhasmoreitems:String (item), Int (value)"
+        "Example": "yanhasmoreitems:String (item):Int (value)"
     },
     "yanhaslessitems": {
         "Name": "yanhaslessitems",
         "Description": "Checks if Ayano has less of a specific item than a value",
-        "Example": "yanhaslessitems:String (item), Int (value)"
+        "Example": "yanhaslessitems:String (item):Int (value)"
     },
     "taskisactive": {
         "Name": "taskisactive",
@@ -158,7 +158,7 @@
     "studuniform": {
         "Name": "studuniform",
         "Description": "Checks if a student is wearing a specific uniform",
-        "Example": "studuniform:StudentScript (student), Int (value)"
+        "Example": "studuniform:StudentScript (student):Int (value)"
     },
     "taskcompleted": {
         "Name": "taskcompleted",
@@ -189,7 +189,7 @@
     "studwearing": {
         "Name": "studwearing",
         "Description": "Checks if a specific student is wearing a certain cloth",
-        "Example": "studwearing:Int (ID), String (cloth)"
+        "Example": "studwearing:Int (ID):String (cloth)"
     },
     "boolsettings": {
         "Name": "boolsettings",
@@ -199,7 +199,7 @@
     "intsettings": {
         "Name": "intsettings",
         "Description": "Checks the value of various integer game settings",
-        "Example": "intsettings:String (detailsSettings), Int (value)"
+        "Example": "intsettings:String (detailsSettings):Int (value)"
     },
     "blonde": {
         "Name": "blonde",
@@ -209,12 +209,12 @@
     "studplayinganim": {
         "Name": "studplayinganim",
         "Description": "Checks if a student is playing a specific animation",
-        "Example": "studplayinganim:StudentScript (student), String (anim)"
+        "Example": "studplayinganim:StudentScript (student):String (anim)"
     },
     "studentwitness": {
         "Name": "studentwitness",
         "Description": "Checks if a student witnessed a specific event type",
-        "Example": "studentwitness:StudentScript (student), String (witnesstype)"
+        "Example": "studentwitness:StudentScript (student):String (witnesstype)"
     },
     "sleeping": {
         "Name": "sleeping",

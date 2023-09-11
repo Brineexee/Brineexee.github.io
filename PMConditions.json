@@ -89,7 +89,6 @@
         "Description": "Checks if a student is wet",
         "Example": "iswet:StudentScript (student)"
     },
-    {
     "yanwearing": {
         "Name": "yanwearing",
         "Description": "Checks if Ayano is wearing a certain cloth",
@@ -185,7 +184,6 @@
         "Description": "Checks if the alphabet mode is enabled",
         "Example": "abc"
     },
-    {
     "studwearing": {
         "Name": "studwearing",
         "Description": "Checks if a specific student is wearing a certain cloth",

@@ -88,5 +88,142 @@
         "Name": "iswet",
         "Description": "Checks if a student is wet",
         "Example": "iswet:StudentScript (student)"
+    },
+    {
+    "yanwearing": {
+        "Name": "yanwearing",
+        "Description": "Checks if Ayano is wearing a certain cloth",
+        "Example": "yanwearing:String (cloth)"
+    },
+    "inventory": {
+        "Name": "inventory",
+        "Description": "Checks the chosen item on Ayano's inventory",
+        "Example": "inventory:String (value)"
+    },
+    "money": {
+        "Name": "money",
+        "Description": "Checks if Ayano has a certain amount of money",
+        "Example": "money:Float (value)"
+    },
+    "inview": {
+        "Name": "inview",
+        "Description": "Checks if a student is in Ayano's view",
+        "Example": "inview:StudentScript (student)"
+    },
+    "week": {
+        "Name": "week",
+        "Description": "Checks the current week",
+        "Example": "week:Int (value)"
+    },
+    "yanclub": {
+        "Name": "yanclub",
+        "Description": "Checks if Ayano is in a specific club",
+        "Example": "yanclub:String (value)"
+    },
+    "yanhasmoreitems": {
+        "Name": "yanhasmoreitems",
+        "Description": "Checks if Ayano has more of a specific item than a value",
+        "Example": "yanhasmoreitems:String (item), Int (value)"
+    },
+    "yanhaslessitems": {
+        "Name": "yanhaslessitems",
+        "Description": "Checks if Ayano has less of a specific item than a value",
+        "Example": "yanhaslessitems:String (item), Int (value)"
+    },
+    "taskisactive": {
+        "Name": "taskisactive",
+        "Description": "Checks if a specific task is active for a student",
+        "Example": "taskisactive:Int (studentID)"
+    },
+    "indoors": {
+        "Name": "indoors",
+        "Description": "Checks if a student is indoors",
+        "Example": "indoors:StudentScript (student1)"
+    },
+    "goingtovomit": {
+        "Name": "goingtovomit",
+        "Description": "Checks if a student is about to vomit",
+        "Example": "goingtovomit:StudentScript (student)"
+    },
+    "burning": {
+        "Name": "burning",
+        "Description": "Checks if a student is burning",
+        "Example": "burning:StudentScript (student)"
+    },
+    "yanuniform": {
+        "Name": "yanuniform",
+        "Description": "Checks if Ayano is wearing a specific uniform",
+        "Example": "yanuniform:Int (value)"
+    },
+    "studuniform": {
+        "Name": "studuniform",
+        "Description": "Checks if a student is wearing a specific uniform",
+        "Example": "studuniform:StudentScript (student), Int (value)"
+    },
+    "taskcompleted": {
+        "Name": "taskcompleted",
+        "Description": "Checks if a student's task is completed",
+        "Example": "taskcompleted:StudentScript (student)"
+    },
+    "eighties": {
+        "Name": "eighties",
+        "Description": "Checks if the game is set in the 1980s",
+        "Example": "eighties"
+    },
+    "isnight": {
+        "Name": "isnight",
+        "Description": "Checks if it is nighttime in the game",
+        "Example": "isnight"
+    },
+    "yanstance": {
+        "Name": "yanstance",
+        "Description": "Checks Ayano's current stance",
+        "Example": "yanstance:String (value)"
+    },
+    "abc": {
+        "Name": "abc",
+        "Description": "Checks if the alphabet mode is enabled",
+        "Example": "abc"
+    },
+    {
+    "studwearing": {
+        "Name": "studwearing",
+        "Description": "Checks if a specific student is wearing a certain cloth",
+        "Example": "studwearing:Int (ID), String (cloth)"
+    },
+    "boolsettings": {
+        "Name": "boolsettings",
+        "Description": "Checks the status of various boolean game settings",
+        "Example": "boolsettings:String (detailsSettings)"
+    },
+    "intsettings": {
+        "Name": "intsettings",
+        "Description": "Checks the value of various integer game settings",
+        "Example": "intsettings:String (detailsSettings), Int (value)"
+    },
+    "blonde": {
+        "Name": "blonde",
+        "Description": "Checks if the player character has blonde hair",
+        "Example": "blonde"
+    },
+    "studplayinganim": {
+        "Name": "studplayinganim",
+        "Description": "Checks if a student is playing a specific animation",
+        "Example": "studplayinganim:StudentScript (student), String (anim)"
+    },
+    "studentwitness": {
+        "Name": "studentwitness",
+        "Description": "Checks if a student witnessed a specific event type",
+        "Example": "studentwitness:StudentScript (student), String (witnesstype)"
+    },
+    "sleeping": {
+        "Name": "sleeping",
+        "Description": "Checks if a student is tranquilized",
+        "Example": "sleeping:StudentScript (student)"
+    },
+    "missionmode": {
+        "Name": "missionmode",
+        "Description": "Checks if the game is in mission mode",
+        "Example": "missionmode"
     }
 }

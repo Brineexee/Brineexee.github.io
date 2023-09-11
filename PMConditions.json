@@ -1,20 +1,20 @@
 {
-    "Atmosphere": {
+    "atmosphere": {
         "Name": "atmosphere",
         "Description": "Checks if the atmosphere is higher than a value",
         "Example": "atmosphere:Float (value)"
     },
-    "Sanity": {
+    "sanity": {
         "Name": "sanity",
         "Description": "Checks if YandereChan's sanity is higher than a value",
         "Example": "sanity:Float (value)"
     },
-    "Yanidle": {
+    "yanidle": {
         "Name": "yanidle",
         "Description": "Checks if YandereChan is playing the idle animation",
         "Example": "yanidle"
     },
-    "Yannearpoint": {
+    "yannearpoint": {
         "Name": "yannearpoint",
         "Description": "Checks if YandereChan is near a point",
         "Example": "yannearpoint:Float (x):Float (y):Float (z):Float (distance)"

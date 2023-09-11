@@ -1,0 +1,92 @@
+{
+    "atmosphere": {
+        "Name": "atmosphere",
+        "Description": "Checks if the atmosphere is higher than a value",
+        "Example": "atmosphere:Float (value)"
+    },
+    "sanity": {
+        "Name": "sanity",
+        "Description": "Checks if YandereChan's sanity is higher than a value",
+        "Example": "sanity:Float (value)"
+    },
+    "yanidle": {
+        "Name": "yanidle",
+        "Description": "Checks if YandereChan is playing the idle animation",
+        "Example": "yanidle"
+    },
+    "yannearpoint": {
+        "Name": "yannearpoint",
+        "Description": "Checks if YandereChan is near a point",
+        "Example": "yannearpoint:Float (x), Float (y), Float (z), Float (distance)"
+    },
+    "yanneareditobject": {
+        "Name": "yanneareditobject",
+        "Description": "Checks if YandereChan is near the EditObj",
+        "Example": "yanneareditobject:Float (distance)"
+    },
+    "time": {
+        "Name": "time",
+        "Description": "Checks if the current time is between 2 values",
+        "Example": "time:Float (minTime), Float (maxTime)"
+    },
+    "dead": {
+        "Name": "dead",
+        "Description": "Checks if a student is dead",
+        "Example": "dead:StudentScript (student)"
+    },
+    "promptpressed": {
+        "Name": "promptpressed",
+        "Description": "Checks if a specific prompt is being fully pressed",
+        "Example": "promptpressed:GameObject (prompt)"
+    },
+    "studreputationisabove": {
+        "Name": "studreputationisabove",
+        "Description": "Checks if a student's reputation is above a value",
+        "Example": "studreputationisabove:StudentScript (student), Float (value)"
+    },
+    "studreputationisunder": {
+        "Name": "studreputationisunder",
+        "Description": "Checks if a student's reputation is under a value",
+        "Example": "studreputationisunder:StudentScript (student), Float (value)"
+    },
+    "weapon": {
+        "Name": "weapon",
+        "Description": "Checks if YandereChan is carrying a specific weapon",
+        "Example": "weapon:Int (value)"
+    },
+    "weaponequipped": {
+        "Name": "weaponequipped",
+        "Description": "Checks if YandereChan is carrying a specific weapon",
+        "Example": "weaponequipped:String (value)"
+    },
+    "weight": {
+        "Name": "weight",
+        "Description": "Checks if YandereChan is carrying the weight",
+        "Example": "weight:Int (value)"
+    },
+    "weekday": {
+        "Name": "weekday",
+        "Description": "Checks the day of the week",
+        "Example": "weekday:String (value)"
+    },
+    "skills": {
+        "Name": "skills",
+        "Description": "Checks if the grade of a skill is equal to a value",
+        "Example": "skills:String (skill), Int (value)"
+    },
+    "skills2": {
+        "Name": "skills2",
+        "Description": "Checks if the grade of a skill is lower than a value",
+        "Example": "skills2:String (skill), Int (value)"
+    },
+    "skillslarger": {
+        "Name": "skillslarger",
+        "Description": "Checks if the grade of a skill is larger or equal to a value",
+        "Example": "skillslarger:String (skill), Int (value)"
+    },
+    "iswet": {
+        "Name": "iswet",
+        "Description": "Checks if a student is wet",
+        "Example": "iswet:StudentScript (student)"
+    }
+}
